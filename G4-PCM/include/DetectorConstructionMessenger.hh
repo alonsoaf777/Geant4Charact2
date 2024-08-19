@@ -21,8 +21,8 @@ namespace G4_PCM
 
     private:
         DetectorConstruction* fDetector;
-        G4UIcmdWithADoubleAndUnit* fTargetThicknessCmd;
         PrimaryGeneratorAction* fGun;
+        G4UIcmdWithADoubleAndUnit* fTargetThicknessCmd;
         G4UIcmdWithADoubleAndUnit* fPgunCmd;
     };
 }

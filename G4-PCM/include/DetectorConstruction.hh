@@ -27,9 +27,7 @@ namespace G4_PCM
         ~DetectorConstruction() override;
 
         G4VPhysicalVolume* Construct() override;
-
         void SetTargetThickness(G4double thickness);
-
         G4LogicalVolume* GetGammaDetector() const { return fGammaDetector; }
 
     private:
