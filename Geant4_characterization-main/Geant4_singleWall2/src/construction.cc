@@ -13,7 +13,7 @@ MyDetectorConstruction::MyDetectorConstruction()
 	nRows = 30;
 	singleWallZ =  1 * cm;
 	//Position of the target to access it in the generator
-	targetPosition = G4ThreeVector(0., -5*cm, 5*cm);
+	targetPosition = G4ThreeVector(0., 0., 5*cm);
 	
 	DefineMaterials(); 
 }	

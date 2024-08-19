@@ -8,6 +8,7 @@
 #include "G4ParticleTable.hh"
 #include "G4RandomTools.hh"
 
+
 #include "construction.hh"
 
 
@@ -22,6 +23,7 @@ public:
 
 private:
 	G4ParticleGun *fParticleGun; 
+	
 };
 
 #endif

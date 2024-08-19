@@ -1,7 +1,9 @@
 #include "generator.hh"
 
 MyPrimaryGenerator::MyPrimaryGenerator()
-{
+{	
+	//Generic message for spawning the particle gun 
+	
 	//Create the particle gun
 	fParticleGun = new G4ParticleGun(1); 
 	
