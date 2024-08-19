@@ -1,0 +1,13 @@
+/run/initialize
+
+/mydet/targetThickness 30 nm
+/gun/momentumAmp 0.01 keV
+/run/beamOn 1000
+
+/mydet/targetThickness 700 nm
+/gun/momentumAmp 1.0 MeV
+/run/beamOn 1000
+
+/mydet/targetThickness 1 mm
+/gun/momentumAmp 100.0 MeV
+/run/beamOn 1000
