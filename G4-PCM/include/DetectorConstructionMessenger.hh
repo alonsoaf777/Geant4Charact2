@@ -7,18 +7,23 @@
 namespace G4_PCM
 {
     class DetectorConstruction;
+    class PrimaryGeneratorAction;
 
     class DetectorConstructionMessenger : public G4UImessenger
     {
     public:
-        DetectorConstructionMessenger(DetectorConstruction* detector);
+
+        DetectorConstructionMessenger(DetectorConstruction* detector, PrimaryGeneratorAction* gun);
         ~DetectorConstructionMessenger() override;
+
 
         void SetNewValue(G4UIcommand* command, G4String newValue) override;
 
     private:
         DetectorConstruction* fDetector;
         G4UIcmdWithADoubleAndUnit* fTargetThicknessCmd;
+        PrimaryGeneratorAction* fGun;
+        G4UIcmdWithADoubleAndUnit* fPgunCmd;
     };
 }
 
