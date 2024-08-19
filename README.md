@@ -1,2 +1,2 @@
 # Geant4Charact2
-#Geant4 with real real real real data and a lot of steps
+# Este readme no lo lean, lean el de G4-PCM
