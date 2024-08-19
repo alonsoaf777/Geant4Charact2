@@ -1,0 +1,3001 @@
+/gun/momentumAmp 0.006222 keV
+/detector/targetWidth 1.5000000000000033e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0063549447213055 keV
+/detector/targetWidth 1.9815822899882258e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0064907300563885 keV
+/detector/targetWidth 2.4734544905081608e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0066294167002998 keV
+/detector/targetWidth 2.9758364648332917e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0067710666449543 keV
+/detector/targetWidth 3.488952774029141e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0069157432068403 keV
+/detector/targetWidth 4.013032777330325e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0070635110553222 keV
+/detector/targetWidth 4.5483107346625016e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0072144362415466 keV
+/detector/targetWidth 5.095025911354756e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0073685862279673 keV
+/detector/targetWidth 5.653422685089578e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0075260299184998 keV
+/detector/targetWidth 6.22375065513785e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0076868376893214 keV
+/detector/targetWidth 6.806264753927791e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0078510814203288 keV
+/detector/targetWidth 7.401225360998061e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0080188345272676 keV
+/detector/targetWidth 8.008898419385389e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0081901719945487 keV
+/detector/targetWidth 8.629555554499233e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.008365170408766 keV
+/detector/targetWidth 9.263474195536228e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0085439079929298 keV
+/detector/targetWidth 9.910937699489178e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0087264646414319 keV
+/detector/targetWidth 0.00010572235477805478 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0089129219557582 keV
+/detector/targetWidth 0.00011247663125751809 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0091033632809634 keV
+/detector/targetWidth 0.00011937522554543248 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0092978737429259 keV
+/detector/targetWidth 0.0001264212212629527 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0094965402863987 keV
+/detector/targetWidth 0.0001336177679185937 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0096994517138726 keV
+/detector/targetWidth 0.00014096808231603726 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0099066987252705 keV
+/detector/targetWidth 0.00014847544999202074 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0101183739584896 keV
+/detector/targetWidth 0.00015614322668494794 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0103345720308099 keV
+/detector/targetWidth 0.00016397483983487843 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0105553895811873 keV
+/detector/targetWidth 0.00017197379011556904 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0107809253134507 keV
+/detector/targetWidth 0.0001801436529992497 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0110112800404216 keV
+/detector/targetWidth 0.00018848808035483252 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.011246556728977 keV
+/detector/targetWidth 0.00019701080208027127 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0114868605460745 keV
+/detector/targetWidth 0.00020571562776979744 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0117322989057618 keV
+/detector/targetWidth 0.0002146064484167825 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.011982981517189 keV
+/detector/targetWidth 0.00022368723815298185 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0122390204336487 keV
+/detector/targetWidth 0.00023296205602494328 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0125005301026626 keV
+/detector/targetWidth 0.0002424350478083717 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0127676274171388 keV
+/detector/targetWidth 0.0002521104478612601 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0130404317676217 keV
+/detector/targetWidth 0.00026199258101661574 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0133190650956594 keV
+/detector/targetWidth 0.00027208586451562964 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0136036519483102 keV
+/detector/targetWidth 0.0002823948099821516 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0138943195338143 keV
+/detector/targetWidth 0.00029292402543935214 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0141911977784548 keV
+/detector/targetWidth 0.00030367821736947484 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0144944193846343 keV
+/detector/targetWidth 0.0003146621928176009 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0148041198901914 keV
+/detector/targetWidth 0.00032588086154036223 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0151204377289853 keV
+/detector/targetWidth 0.0003373392382005659 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0154435142927748 keV
+/detector/targetWidth 0.00034904244460871295 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0157734939944192 keV
+/detector/targetWidth 0.0003609957120124104 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.01611052433243 keV
+/detector/targetWidth 0.0003732043834346989 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0164547559569015 keV
+/detector/targetWidth 0.0003856739160623473 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0168063427368503 keV
+/detector/targetWidth 0.00039840988368517263 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0171654418289938 keV
+/detector/targetWidth 0.0004114179791874863 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0175322137479977 keV
+/detector/targetWidth 0.0004247040170927685 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0179068224382255 keV
+/detector/targetWidth 0.0004382739361627199 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0182894353470198 keV
+/detector/targetWidth 0.0004497194500623992 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0186802234995505 keV
+/detector/targetWidth 0.0004478582337661832 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0190793615752614 keV
+/detector/targetWidth 0.0004459572490865229 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0194870279859511 keV
+/detector/targetWidth 0.0004440156462971803 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0199034049555214 keV
+/detector/targetWidth 0.0004420325575159194 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0203286786014301 keV
+/detector/targetWidth 0.0004400070963165696 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0207630390178842 keV
+/detector/targetWidth 0.0004379383573327997 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0212066803608108 keV
+/detector/targetWidth 0.0004358254158534253 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.021659800934643 keV
+/detector/targetWidth 0.00043366732740907 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.022122603280961 keV
+/detector/targetWidth 0.0004314631273499947 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0225952942690261 keV
+/detector/targetWidth 0.0004292118304149061 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0230780851882503 keV
+/detector/targetWidth 0.0004269124302905517 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0235711918426409 keV
+/detector/targetWidth 0.00042456389916190567 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0240748346472632 keV
+/detector/targetWidth 0.000422165187252743 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0245892387267647 keV
+/detector/targetWidth 0.0004197152223563968 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0251146340160038 keV
+/detector/targetWidth 0.00041721290935648993 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0256512553628294 keV
+/detector/targetWidth 0.00041465712973742666 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0261993426330559 keV
+/detector/targetWidth 0.00041204674108442343 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0267591408176816 keV
+/detector/targetWidth 0.00040938057657285813 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0273309001423976 keV
+/detector/targetWidth 0.0004066574444467082 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0279148761794374 keV
+/detector/targetWidth 0.00040387612748584475 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0285113299618152 keV
+/detector/targetWidth 0.0004010353824619429 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0291205281000063 keV
+/detector/targetWidth 0.0003981339395827688 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0297427429011195 keV
+/detector/targetWidth 0.0003951705019245919 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0303782524906168 keV
+/detector/targetWidth 0.000392143744852469 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0310273409366335 keV
+/detector/targetWidth 0.00038905231542814197 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0316902983769539 keV
+/detector/targetWidth 0.0003858948318052852 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0323674211487016 keV
+/detector/targetWidth 0.00038266988261182925 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0330590119207997 keV
+/detector/targetWidth 0.000380248467457138 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0337653798292613 keV
+/detector/targetWidth 0.0003815881122539474 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0344868406153716 keV
+/detector/targetWidth 0.0003829563810790693 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0352237167668213 keV
+/detector/targetWidth 0.00038435388553865373 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0359763376618569 keV
+/detector/targetWidth 0.0003857883893916048 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0367450397165098 keV
+/detector/targetWidth 0.0003872595744793225 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0375301665349723 keV
+/detector/targetWidth 0.00038876219420083566 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0383320690631857 keV
+/detector/targetWidth 0.0003902969202161619 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0391511057457108 keV
+/detector/targetWidth 0.00039186443853659713 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.03998764268595 keV
+/detector/targetWidth 0.0003934654498313576 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0408420538097929 keV
+/detector/targetWidth 0.0003951006697407738 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0417147210327582 keV
+/detector/targetWidth 0.00039677082919617696 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0426060344307073 keV
+/detector/targetWidth 0.0003984766747466196 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0435163924142056 keV
+/detector/targetWidth 0.0004004308741057908 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0444462019066084 keV
+/detector/targetWidth 0.0004039325118990013 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0453958785259535 keV
+/detector/targetWidth 0.0004075089687633355 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0463658467707389 keV
+/detector/targetWidth 0.000411161843348835 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0473565402096705 keV
+/detector/targetWidth 0.0004148927684637033 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0483684016754646 keV
+/detector/targetWidth 0.0004187034118041596 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0494018834627903 keV
+/detector/targetWidth 0.0004225954766998863 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0504574475304423 keV
+/detector/targetWidth 0.0004265707028754049 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.051535565707833 keV
+/detector/targetWidth 0.0004306308672277204 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0526367199058968 keV
+/detector/targetWidth 0.0004347777846205814 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0537614023325006 keV
+/detector/targetWidth 0.0004390133086957104 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0549101157124574 keV
+/detector/targetWidth 0.00044333933270136814 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0560833735122403 keV
+/detector/targetWidth 0.0004477577903386225 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0572817001694986 keV
+/detector/targetWidth 0.0004414898051223512 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0585056313274773 keV
+/detector/targetWidth 0.0004242146372066252 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0597557140744457 keV
+/detector/targetWidth 0.00040657035286787433 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0610325071882424 keV
+/detector/targetWidth 0.0003885490652401401 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0623365813860439 keV
+/detector/targetWidth 0.000370142718939755 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.063668519579472 keV
+/detector/targetWidth 0.0003513430864646414 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0650289171351504 keV
+/detector/targetWidth 0.0003321417645166815 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0664183821408296 keV
+/detector/targetWidth 0.00031253017024550204 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0678375356771972 keV
+/detector/targetWidth 0.00029249953741200497 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0692870120954971 keV
+/detector/targetWidth 0.00027204091246992235 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0707674593010792 keV
+/detector/targetWidth 0.00025114515056364405 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0722795390430086 keV
+/detector/targetWidth 0.00022980291144053958 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.073823927209863 keV
+/detector/targetWidth 0.00020800465527592713 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0754013141318492 keV
+/detector/targetWidth 0.00018574063840884802 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0770124048893761 keV
+/detector/targetWidth 0.00016300090898671574 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0786579196282205 keV
+/detector/targetWidth 0.0001399250778523016 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0803385938814268 keV
+/detector/targetWidth 0.0001320153626952 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0820551788980851 keV
+/detector/targetWidth 0.00012393664161119888 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0838084419791337 keV
+/detector/targetWidth 0.00011568530347110384 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0855991668203376 keV
+/detector/targetWidth 0.00010725765998715886 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0874281538625939 keV
+/detector/targetWidth 9.864994406441052e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0892962206497239 keV
+/detector/targetWidth 8.985830811684244e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0912042021939088 keV
+/detector/targetWidth 8.087882234753403e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0931529513489339 keV
+/detector/targetWidth 7.170747299206852e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0951433391914083 keV
+/detector/targetWidth 6.234016052441104e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0971762554101294 keV
+/detector/targetWidth 5.277269782444992e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.0992526087037679 keV
+/detector/targetWidth 4.300080830638379e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1013733271870487 keV
+/detector/targetWidth 3.302012400712084e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.103539358805612 keV
+/detector/targetWidth 3.065091748628165e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1057516717597376 keV
+/detector/targetWidth 3.159562972678434e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1080112549371238 keV
+/detector/targetWidth 3.2e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1103191183549124 keV
+/detector/targetWidth 3.2e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1126762936111596 keV
+/detector/targetWidth 3.2e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1150838343459523 keV
+/detector/targetWidth 3.2e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1175428167123778 keV
+/detector/targetWidth 3.2e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.120054339857556 keV
+/detector/targetWidth 3.2e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1226195264139506 keV
+/detector/targetWidth 3.2e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1252395230011772 keV
+/detector/targetWidth 3.2e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.127915500738534 keV
+/detector/targetWidth 3.2e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1306486557684837 keV
+/detector/targetWidth 3.2e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1334402097913202 keV
+/detector/targetWidth 3.2e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1362914106112597 keV
+/detector/targetWidth 3.3348597569076605e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1392035326942004 keV
+/detector/targetWidth 3.5239021262610175e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1421778777373989 keV
+/detector/targetWidth 3.6e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1452157752513199 keV
+/detector/targetWidth 3.6e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.148318583153917 keV
+/detector/targetWidth 3.6444488897567726e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1514876883776127 keV
+/detector/targetWidth 3.7384791102767475e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1547245074892468 keV
+/detector/targetWidth 3.8330032422113457e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1580304873232711 keV
+/detector/targetWidth 3.9267888399357486e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1614071056284746 keV
+/detector/targetWidth 4.0431744796941914e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1648558717285254 keV
+/detector/targetWidth 4.230257655715696e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1683783271966282 keV
+/detector/targetWidth 4.430602365571958e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1719760465445957 keV
+/detector/targetWidth 4.710497391404816e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1756506379266442 keV
+/detector/targetWidth 4.9963729003948925e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1794037438582262 keV
+/detector/targetWidth 5e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1832370419502236 keV
+/detector/targetWidth 5e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1871522456588269 keV
+/detector/targetWidth 5e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1911511050514377 keV
+/detector/targetWidth 5e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1952354075889362 keV
+/detector/targetWidth 5e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.1994069789246627 keV
+/detector/targetWidth 5e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.203667683720472 keV
+/detector/targetWidth 5.088311185982972e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.2080194264802227 keV
+/detector/targetWidth 5.322899148178802e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.2124641524010774 keV
+/detector/targetWidth 5.5e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.2170038482429908 keV
+/detector/targetWidth 5.5e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.2216405432167776 keV
+/detector/targetWidth 5.562549964694982e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.226376309891154 keV
+/detector/targetWidth 6.0292889066332305e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.2312132651191615 keV
+/detector/targetWidth 6.50573720019916e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.2361535709843847 keV
+/detector/targetWidth 6.971261850297361e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.2411994357673859 keV
+/detector/targetWidth 7.446733309278251e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.246353114932792 keV
+/detector/targetWidth 7.5e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.2516169121374688 keV
+/detector/targetWidth 7.641926998660901e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.2569931802602403 keV
+/detector/targetWidth 8.246345704438739e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.2624843224536075 keV
+/detector/targetWidth 8.771788240213227e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.2680927932179398 keV
+/detector/targetWidth 9.242997626334078e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.2738210994986199 keV
+/detector/targetWidth 9.596251516168179e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.2796718018066283 keV
+/detector/targetWidth 9.807213224111376e-05 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.2856475153630747 keV
+/detector/targetWidth 0.00010048073982150647 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.2917509112681811 keV
+/detector/targetWidth 0.00010514503328007876 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.2979847176952456 keV
+/detector/targetWidth 0.00010990898813272668 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.3043517211101145 keV
+/detector/targetWidth 0.00011456514418265694 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.3108547675167127 keV
+/detector/targetWidth 0.00011931670737704532 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.3174967637291875 keV
+/detector/targetWidth 0.0001239867642341742 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.3242806786712314 keV
+/detector/targetWidth 0.00012872597177763126 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.331209544703171 keV
+/detector/targetWidth 0.00014022967030299493 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.3382864589774088 keV
+/detector/targetWidth 0.00015441030971371643 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.3455145848228284 keV
+/detector/targetWidth 0.00016283451358504913 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.3528971531587783 keV
+/detector/targetWidth 0.00016754909838353555 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.3604374639392707 keV
+/detector/targetWidth 0.00017226063272986035 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.3681388876280353 keV
+/detector/targetWidth 0.00017696295658483615 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.3760048667050928 keV
+/detector/targetWidth 0.00018337649200849372 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.3840389172055183 keV
+/detector/targetWidth 0.00019275667908615356 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.3922446302910825 keV
+/detector/targetWidth 0.0002044693882682844 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.4006256738554757 keV
+/detector/targetWidth 0.00022318095911757525 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.4091857941638287 keV
+/detector/targetWidth 0.0002406178625885366 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.4179288175272664 keV
+/detector/targetWidth 0.0002458790898981254 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.4268586520132401 keV
+/detector/targetWidth 0.0002553382273637452 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.4359792891924064 keV
+/detector/targetWidth 0.0002787260117392486 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.4452948059228285 keV
+/detector/targetWidth 0.0003024984272717943 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.4548093661723026 keV
+/detector/targetWidth 0.00032582191497332346 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.4645272228796219 keV
+/detector/targetWidth 0.00034964375281505786 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.4744527198556073 keV
+/detector/targetWidth 0.00037292221221195345 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.484590293724761 keV
+/detector/targetWidth 0.0003966820878556128 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.4949444759084033 keV
+/detector/targetWidth 0.0004 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.5055198946501865 keV
+/detector/targetWidth 0.00040486128377310453 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.5163212770848846 keV
+/detector/targetWidth 0.00042823526336914573 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.5273534513513882 keV
+/detector/targetWidth 0.0004528225544257238 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.5386213487508485 keV
+/detector/targetWidth 0.0004854610027306294 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.5501300059509308 keV
+/detector/targetWidth 0.0005187968328120919 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.5618845672371697 keV
+/detector/targetWidth 0.0005558893955682433 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.5738902868124263 keV
+/detector/targetWidth 0.0005938884170065143 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.5861525311454788 keV
+/detector/targetWidth 0.0006 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.5986767813697944 keV
+/detector/targetWidth 0.0006087558473520875 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.6114686357335556 keV
+/detector/targetWidth 0.0006554831436575906 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.6245338121020375 keV
+/detector/targetWidth 0.0007030680023876377 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.6378781505134509 keV
+/detector/targetWidth 0.0007496737627589842 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.6515076157893946 keV
+/detector/targetWidth 0.000797275342774141 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.6654283002010913 keV
+/detector/targetWidth 0.0008787848113625922 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.6796464261925849 keV
+/detector/targetWidth 0.0009640302810748392 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.694168349162129 keV
+/detector/targetWidth 0.001 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.7090005603030012 keV
+/detector/targetWidth 0.001 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.7241496895050221 keV
+/detector/targetWidth 0.0010426773729042959 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.7396225083180669 keV
+/detector/targetWidth 0.001136669695811129 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.7554259329788948 keV
+/detector/targetWidth 0.0012 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.7715670275026619 keV
+/detector/targetWidth 0.0012 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.7880530068404805 keV
+/detector/targetWidth 0.001229737282611461 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.8048912401044517 keV
+/detector/targetWidth 0.0013699932844237449 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.8220892538616006 keV
+/detector/targetWidth 0.0015 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.8396547354982019 keV
+/detector/targetWidth 0.0015 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.8575955366559832 keV
+/detector/targetWidth 0.0015 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.8759196767417482 keV
+/detector/targetWidth 0.0016351639208925619 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.8946353465119983 keV
+/detector/targetWidth 0.0017776725652972967 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.9137509117341372 keV
+/detector/targetWidth 0.001957089503423617 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.93327491692591 keV
+/detector/targetWidth 0.002146606842394448 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.9532160891747358 keV
+/detector/targetWidth 0.0024010308998418657 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.9735833420386572 keV
+/detector/targetWidth 0.002684567518710543 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 0.994385779530634 keV
+/detector/targetWidth 0.0028555059041817763 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.0156327001879664 keV
+/detector/targetWidth 0.002949772408512041 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.037333601228679 keV
+/detector/targetWidth 0.0030592932859711346 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.0594981827967034 keV
+/detector/targetWidth 0.0031859031817110697 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.0821363522977756 keV
+/detector/targetWidth 0.003321502786951973 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.105258228827967 keV
+/detector/targetWidth 0.0035081230433741247 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.1288741476968551 keV
+/detector/targetWidth 0.0036987307922392246 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.1529946650473246 keV
+/detector/targetWidth 0.0039773820337496235 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.1776305625740895 keV
+/detector/targetWidth 0.00426254999169383 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.2027928523430278 keV
+/detector/targetWidth 0.00450222517664217 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.2284927817134994 keV
+/detector/targetWidth 0.004739247297880439 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.2547418383658318 keV
+/detector/targetWidth 0.004904024490853242 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.2815517554362243 keV
+/detector/targetWidth 0.005045867898652409 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.3089345167613822 keV
+/detector/targetWidth 0.00538919575159227 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.336902362235198 keV
+/detector/targetWidth 0.005860776409964453 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.365467793279898 keV
+/detector/targetWidth 0.0062622543748829754 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.394643578434081 keV
+/detector/targetWidth 0.00659150280438207 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.4244427590601692 keV
+/detector/targetWidth 0.006887269306582517 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.4548786551737982 keV
+/detector/targetWidth 0.007121835094153393 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.4859648713977618 keV
+/detector/targetWidth 0.0074056906679613585 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.5177153030431878 keV
+/detector/targetWidth 0.007826810610440523 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.5501441423206346 keV
+/detector/targetWidth 0.007753676079544107 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.583265884683908 keV
+/detector/targetWidth 0.004309469247716442 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.6170953353094173 keV
+/detector/targetWidth 0.0008201647436822681 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.651647615713989 keV
+/detector/targetWidth 0.0008410587677233662 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.6869381705140718 keV
+/detector/targetWidth 0.0008623992318485377 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.7229827743293595 keV
+/detector/targetWidth 0.0009030954213085957 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.759797538833942 keV
+/detector/targetWidth 0.0009549968442509496 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.797398919958099 keV
+/detector/targetWidth 0.001017747537316651 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.8358037252439836 keV
+/detector/targetWidth 0.0010907203585683726 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.875029121358462 keV
+/detector/targetWidth 0.0011787669931843895 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.9150926417665024 keV
+/detector/targetWidth 0.0012654382811577642 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.9560121945684943 keV
+/detector/targetWidth 0.0013355784707405956 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 1.9978060705050449 keV
+/detector/targetWidth 0.001409200697727112 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.040492951132796 keV
+/detector/targetWidth 0.0015024776266132813 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.084091917174957 keV
+/detector/targetWidth 0.0015977475923549661 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.1286224570502426 keV
+/detector/targetWidth 0.0016454404267979286 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.1741044755840453 keV
+/detector/targetWidth 0.0016929515503984627 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.2205583029057605 keV
+/detector/targetWidth 0.0017609002627426578 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.2680047035361968 keV
+/detector/targetWidth 0.0018336718575769956 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.316464885669169 keV
+/detector/targetWidth 0.002008755901412176 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.365960510651397 keV
+/detector/targetWidth 0.002205453825816934 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.416513702664983 keV
+/detector/targetWidth 0.0022753806694086726 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.4681470586167515 keV
+/detector/targetWidth 0.0023468016314081752 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.5208836582388927 keV
+/detector/targetWidth 0.0012964195938384292 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.5747470744054524 keV
+/detector/targetWidth 0.00017098256570304192 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.62976138366922 keV
+/detector/targetWidth 0.0001 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.6859511770237794 keV
+/detector/targetWidth 0.0001 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.743341570895492 keV
+/detector/targetWidth 0.0001 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.801958218370368 keV
+/detector/targetWidth 0.0001 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.861827320660808 keV
+/detector/targetWidth 0.0001 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.922975638817336 keV
+/detector/targetWidth 0.0001 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 2.985430505690614 keV
+/detector/targetWidth 0.0001 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 3.0492198381490168 keV
+/detector/targetWidth 0.0001087600098362382 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 3.11437214955727 keV
+/detector/targetWidth 0.00029510793153928946 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 3.180916562521705 keV
+/detector/targetWidth 0.00048543752674228154 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 3.2488828219078703 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 3.318301308136256 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 3.3892030507621125 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 3.461619742345454 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 3.5355837526173883 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 3.611128142949153 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 3.688286681130296 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 3.7670938564626506 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 3.8475848951767895 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 3.929795776177882 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 4.013763247128022 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 4.09952484087215 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 4.187118892214972 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 4.276584555056309 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 4.367961819892642 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 4.461291531692544 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 4.556615408154099 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 4.653976058352381 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 4.753417001785432 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 4.854982687827147 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 4.958718515595797 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 5.064670854247139 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 5.172887063701064 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 5.283415515811151 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 5.396305615986502 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 5.511607825275637 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 5.629373682922198 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 5.749655829402589 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 5.872508029955927 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 5.99798519861668 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 6.126143422760856 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 6.257039988176621 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 6.390733404670665 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 6.527283432221641 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 6.666751107692416 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 6.809198772113144 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 6.954690098547217 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 7.103290120552682 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 7.255065261251731 keV
+/detector/targetWidth 0.0005 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 7.410083363021391 keV
+/detector/targetWidth 0.0005029988510770041 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 7.568413717818548 keV
+/detector/targetWidth 0.0005300406176942813 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 7.7301270981529555 keV
+/detector/targetWidth 0.0005576601824675459 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 7.895295788721996 keV
+/detector/targetWidth 0.000585869891140096 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 8.063993618721463 keV
+/detector/targetWidth 0.0006146823532452375 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 8.236295994846643 keV
+/detector/targetWidth 0.0006441104477426491 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 8.412279934998532 keV
+/detector/targetWidth 0.0006741673287751782 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 8.592024102710331 keV
+/detector/targetWidth 0.0007048664315486567 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 8.775608842309424 keV
+/detector/targetWidth 0.000736221478337331 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 8.96311621483073 keV
+/detector/targetWidth 0.0007682464846176244 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 9.15463003469735 keV
+/detector/targetWidth 0.0008009557653329445 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 9.350235907185043 keV
+/detector/targetWidth 0.0008343639412923663 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 9.550021266687148 keV
+/detector/targetWidth 0.000868485945706025 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 9.75407541579708 keV
+/detector/targetWidth 0.0009033370308601455 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 9.962489565225985 keV
+/detector/targetWidth 0.0009389327749347112 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 10.175356874573236 keV
+/detector/targetWidth 0.000975289088966792 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 10.39277249396811 keV
+/detector/targetWidth 0.001 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 10.61483360660115 keV
+/detector/targetWidth 0.001 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 10.841639472164406 keV
+/detector/targetWidth 0.001 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 11.073291471219765 keV
+/detector/targetWidth 0.001 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 11.30989315051527 keV
+/detector/targetWidth 0.001 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 11.551550269269852 keV
+/detector/targetWidth 0.001 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 11.798370846446865 keV
+/detector/targetWidth 0.001 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 12.050465209037784 keV
+/detector/targetWidth 0.0013764773441732542 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 12.307946041377544 keV
+/detector/targetWidth 0.0018796076208792117 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 12.57092843551366 keV
+/detector/targetWidth 0.0023934882213423325 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 12.83952994265151 keV
+/detector/targetWidth 0.0029183488464298636 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 13.11387062569881 keV
+/detector/targetWidth 0.0034544241049996095 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 13.39407311293295 keV
+/detector/targetWidth 0.00400195361876855 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 13.680262652814868 keV
+/detector/targetWidth 0.004561182129421866 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 13.97256716997423 keV
+/detector/targetWidth 0.005132359608010751 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 14.271117322390744 keV
+/detector/targetWidth 0.0057157413666875205 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 14.57604655979742 keV
+/detector/targetWidth 0.006311588172828461 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 14.88749118333155 keV
+/detector/targetWidth 0.006920166365594825 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 15.205590406460308 keV
+/detector/targetWidth 0.007541747974984429 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 15.530486417208218 keV
+/detector/targetWidth 0.008176610843427223 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 15.862324441714112 keV
+/detector/targetWidth 0.008825038749978725 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 16.201252809146176 keV
+/detector/targetWidth 0.009487321537167234 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 16.54742301800394 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 16.900989803837096 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 17.26211120841109 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 17.630948650350668 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 18.007666997292755 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 18.392434639581182 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 18.78542356553588 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 19.18680943833036 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 19.596771674511952 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 20.01549352419965 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 20.443162152995583 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 20.879968725646588 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 21.3261084914936 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 21.781780871746584 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 22.247189548624327 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 22.722542556399 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 23.20805237438589 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 23.70393602192011 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 24.210415155362604 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 24.727716167179032 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 25.25607028713548 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 25.795713685656384 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 26.34688757939117 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 26.90983833903619 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 27.48481759946069 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 28.07208237218565 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 28.671895160266207 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 29.28452407562849 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 29.910242958913734 keV
+/detector/targetWidth 0.01 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 30.549331501882985 keV
+/detector/targetWidth 0.011950168932617064 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 31.202075372437356 keV
+/detector/targetWidth 0.014328283649515352 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 31.86876634230946 keV
+/detector/targetWidth 0.016757211255881893 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 32.54970241748314 keV
+/detector/targetWidth 0.01923803746457872 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 33.24518797140013 keV
+/detector/targetWidth 0.021771871186763617 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 33.95553388101264 keV
+/detector/targetWidth 0.0243598450275648 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 34.681057665743154 keV
+/detector/targetWidth 0.02700311579234737 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 35.42208362941313 keV
+/detector/targetWidth 0.02970286500379634 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 36.17894300520466 keV
+/detector/targetWidth 0.0324602994300494 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 36.95197410371916 keV
+/detector/targetWidth 0.03527665162411304 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 37.74152246419964 keV
+/detector/targetWidth 0.03815318047480434 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 38.54794100898442 keV
+/detector/targetWidth 0.04109117176946583 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 39.37159020126069 keV
+/detector/targetWidth 0.044091938768702536 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 40.212838206189 keV
+/detector/targetWidth 0.0471568227934001 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 41.072061055470215 keV
+/detector/targetWidth 0.050287193824284794 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 41.9496428154292 keV
+/detector/targetWidth 0.053484451114295825 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 42.84597575868951 keV
+/detector/targetWidth 0.05675002381404063 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 43.761460539516285 keV
+/detector/targetWidth 0.06008537161061441 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 44.69650637290597 keV
+/detector/targetWidth 0.0634919853800703 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 45.65153121750234 keV
+/detector/targetWidth 0.06697138785382965 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 46.62696196242095 keV
+/detector/targetWidth 0.07052513429933195 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 47.62323461806535 keV
+/detector/targetWidth 0.07415481321522756 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 48.64079451102074 keV
+/detector/targetWidth 0.07786204704142571 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 49.68009648311161 keV
+/detector/targetWidth 0.08164849288431297 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 50.74160509471256 keV
+/detector/targetWidth 0.08551584325746704 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 51.825794832403616 keV
+/detector/targetWidth 0.08946582683819905 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 52.933150321062165 keV
+/detector/targetWidth 0.09350020924025892 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 54.06416654048675 keV
+/detector/targetWidth 0.09762079380305222 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 55.21934904664922 keV
+/detector/targetWidth 0.1 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 56.39921419767489 keV
+/detector/targetWidth 0.1 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 57.60428938465068 keV
+/detector/targetWidth 0.1 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 58.83511326736488 keV
+/detector/targetWidth 0.1 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 60.09223601508448 keV
+/detector/targetWidth 0.1 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 61.37621955247662 keV
+/detector/targetWidth 0.1 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 62.68763781078479 keV
+/detector/targetWidth 0.1 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 64.02707698437194 keV
+/detector/targetWidth 0.1 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 65.3951357927452 keV
+/detector/targetWidth 0.1 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 66.79242574817854 keV
+/detector/targetWidth 0.1 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 68.21957142905521 keV
+/detector/targetWidth 0.1 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 69.67721075904895 keV
+/detector/targetWidth 0.1 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 71.16599529227157 keV
+/detector/targetWidth 0.1 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 72.68659050451274 keV
+/detector/targetWidth 0.10837407423449709 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 74.23967609070277 keV
+/detector/targetWidth 0.11893720919875776 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 75.82594626873157 keV
+/detector/targetWidth 0.1297260453899461 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 77.44611008975818 keV
+/detector/targetWidth 0.14074540533887178 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 79.10089175515249 keV
+/detector/targetWidth 0.15200021461878052 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 80.79103094020725 keV
+/detector/targetWidth 0.1634955040470442 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 82.51728312476776 keV
+/detector/targetWidth 0.17523641193390113 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 84.28041993092573 keV
+/detector/targetWidth 0.1872281863792428 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 86.08122946792884 keV
+/detector/targetWidth 0.19947618761847652 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 87.9205166844598 keV
+/detector/targetWidth 0.21198589041851176 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 89.79910372844198 keV
+/detector/targetWidth 0.224762886524937 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 91.7178303145345 keV
+/detector/targetWidth 0.23781288716149585 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 93.6775540994778 keV
+/detector/targetWidth 0.2511417255829574 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 95.6791510654602 keV
+/detector/targetWidth 0.2647553596825398 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 97.7235159116754 keV
+/detector/targetWidth 0.278659874655045 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 99.8115624542466 keV
+/detector/targetWidth 0.2928614857168958 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 101.94422403469576 keV
+/detector/targetWidth 0.3073665408842942 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 104.12245393713953 keV
+/detector/targetWidth 0.32218152381073184 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 106.34722581440164 keV
+/detector/targetWidth 0.3373130566851448 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 108.61953412322777 keV
+/detector/targetWidth 0.3527679031919773 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 110.94039456880044 keV
+/detector/targetWidth 0.3685529715345013 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 113.31084455875208 keV
+/detector/targetWidth 0.3846753175227316 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 115.7319436668784 keV
+/detector/targetWidth 0.4011421477273229 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 118.2047741067605 keV
+/detector/targetWidth 0.41796082270085433 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 120.73044121550544 keV
+/detector/targetWidth 0.4351388602679368 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 123.31007394782524 keV
+/detector/targetWidth 0.4526839388856353 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 125.9448253806704 keV
+/detector/targetWidth 0.47060390107567607 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 128.63587322864723 keV
+/detector/targetWidth 0.4889067569299987 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 131.38442037044746 keV
+/detector/targetWidth 0.5052115081547421 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 134.19169538652636 keV
+/detector/targetWidth 0.5183031143802656 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 137.0589531082694 keV
+/detector/targetWidth 0.5316744473722791 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 139.9874751788917 keV
+/detector/targetWidth 0.5453314840187607 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 142.9785706263247 keV
+/detector/targetWidth 0.559280328915134 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 146.033576448341 keV
+/detector/targetWidth 0.5735272170929735 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 149.15385821018288 keV
+/detector/targetWidth 0.5880785168070191 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 152.34081065496 keV
+/detector/targetWidth 0.6029407323817394 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 155.59585832708922 keV
+/detector/targetWidth 0.6181205071187168 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 158.92045620905606 keV
+/detector/targetWidth 0.6336246262661568 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 162.31609037177975 keV
+/detector/targetWidth 0.6494600200518379 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 165.7842786388781 keV
+/detector/targetWidth 0.6656337667808815 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 169.32657126512214 keV
+/detector/targetWidth 0.6821530959996966 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 172.94455162938914 keV
+/detector/targetWidth 0.6990253917275363 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 176.63983694242123 keV
+/detector/targetWidth 0.7162581957570995 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 180.4140789697069 keV
+/detector/targetWidth 0.733859211025657 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 184.26896476980792 keV
+/detector/targetWidth 0.751836305058209 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 188.20621744846275 keV
+/detector/targetWidth 0.7701975134842121 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 192.22759692880044 keV
+/detector/targetWidth 0.78895104362944 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 196.33490073801596 keV
+/detector/targetWidth 0.8081052781846093 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 200.52996481084972 keV
+/detector/targetWidth 0.8276687789523719 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 204.81466431023804 keV
+/detector/targetWidth 0.8476502906743828 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 209.19091446549652 keV
+/detector/targetWidth 0.868058744940133 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 213.660671428414 keV
+/detector/targetWidth 0.8889032641793063 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 218.2259331476384 keV
+/detector/targetWidth 0.9101931657394395 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 222.8887402617433 keV
+/detector/targetWidth 0.9319379660507014 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 227.65117701138115 keV
+/detector/targetWidth 0.954147384879679 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 232.51537217092192 keV
+/detector/targetWidth 0.9768313496740334 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+/gun/momentumAmp 237.4835 keV
+/detector/targetWidth 1.0 mm
+/run/reinitializeGeometry
+/run/beamOn 10000
+
+
+

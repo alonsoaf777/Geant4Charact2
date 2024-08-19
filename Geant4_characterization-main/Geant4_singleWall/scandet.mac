@@ -1,0 +1,4 @@
+/detector/nCols {cols}
+/detector/nRows 100
+/run/reinitializeGeometry
+/run/beamOn 100

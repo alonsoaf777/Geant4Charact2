@@ -1,0 +1,6 @@
+/gun/momentumAmp 100 keV
+/detector/targetWidth .1
+/tracking/verbose 1
+/run/reinitializeGeometry
+/run/beamOn 1000
+
