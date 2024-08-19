@@ -31,7 +31,7 @@ void MyDetectorConstruction::DefineMaterials()
 	//Material for the detector
 	detectorMat = nist->FindOrBuildMaterial("G4_Si"); 
 	//Material for world volume
-	worldMat = nist->FindOrBuildMaterial("G4_Galactic"); 
+	worldMat = nist->FindOrBuildMaterial("G4_AIR"); 
 	
 	//Access the material properties
 	fMaterial = wallMat; 
