@@ -2,8 +2,12 @@
 
 MyPrimaryGenerator::MyPrimaryGenerator()
 {	
-	//Generic message for spawning the particle gun 
+	//Generic message for spawning the particle gun x
+	fMessenger = new G4GenericMessenger(this, "/generator/", "Particle Generator");
+	fMessenger->DeclareProperty("zPos", zPos, "Z position of particle");
 	
+	zPos = -35*cm;
+	  
 	//Create the particle gun
 	fParticleGun = new G4ParticleGun(1); 
 	
@@ -20,9 +24,9 @@ MyPrimaryGenerator::MyPrimaryGenerator()
 	// Generate random position within the world volume
    	//G4double posX = G4UniformRand() * (maxX - minX) + minX;
     	//G4double posY = G4UniformRand() * (maxY - minY) + minY;
-	G4double zpos = -35*cm;  
 	
-	G4ThreeVector gunPosition(0, 0, zpos); 
+	
+	G4ThreeVector gunPosition(0, 0, zPos); 
 	fParticleGun->SetParticlePosition(gunPosition);
 	
 	//Direction

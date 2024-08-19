@@ -56,7 +56,8 @@ void MyRunAction::BeginOfRunAction(const G4Run* run)
 	{
 		G4ParticleDefinition *particle = primaryGenerator->GetParticleGun()->GetParticleDefinition(); 
 		G4double energy = primaryGenerator->GetParticleGun()->GetParticleEnergy();
-		fRun->SetPrimary(particle, energy);
+		G4ThreeVector pos = primaryGenerator->GetParticleGun()->GetParticlePosition(); 
+		fRun->SetPrimary(particle, energy, pos);
  
 	}
 	

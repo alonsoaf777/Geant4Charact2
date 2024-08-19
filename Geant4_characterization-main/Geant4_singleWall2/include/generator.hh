@@ -7,6 +7,7 @@
 #include "G4SystemOfUnits.hh"
 #include "G4ParticleTable.hh"
 #include "G4RandomTools.hh"
+#include "G4GenericMessenger.hh"
 
 
 #include "construction.hh"
@@ -23,7 +24,9 @@ public:
 
 private:
 	G4ParticleGun *fParticleGun; 
+	G4GenericMessenger *fMessenger; 
 	
+	G4double zPos; 
 };
 
 #endif

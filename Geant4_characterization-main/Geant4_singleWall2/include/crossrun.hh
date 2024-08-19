@@ -27,7 +27,7 @@ public:
 	 
 	//Functions
 	//Get the characteristics of the incident particle to calculate cross
-	void SetPrimary(G4ParticleDefinition* particle, G4double energy); 
+	void SetPrimary(G4ParticleDefinition* particle, G4double energy, G4ThreeVector gunPos); 
 	//Get the dictionary of processes
 	void CountProcesses(G4String procName); 
 	//Counter for multithread
@@ -38,6 +38,7 @@ public:
 private: 
 	G4ParticleDefinition *fParticle = nullptr; 
 	G4double fEkin = 0; 
+	G4ThreeVector pos; 
 	
 	//Counter
 	std::map<G4String, G4int> fProcCounter; 
