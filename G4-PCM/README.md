@@ -73,6 +73,10 @@ https://www.nature.com/articles/s42005-021-00685-2
 https://gitlab.cern.ch/geant4/geant4/blob/4ec577e5c49e900713a6c89b59a8b3e8a4b71a52/examples/advanced/composite_calorimeter/dataglobal/material.cms#L766
 https://www.msesupplies.com/products/pbwo4-crystals-lead-tungstate
 
+# Lista de materiales
+
+https://geant4-userdoc.web.cern.ch/UsersGuides/ForApplicationDeveloper/html/Appendix/materialNames.html
+
 
 # Wolframium characterization
 

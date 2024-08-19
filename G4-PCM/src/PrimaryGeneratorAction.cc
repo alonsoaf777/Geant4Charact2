@@ -37,7 +37,7 @@ namespace G4_PCM
 		G4double radius = 10 * mm; // hay que cambiarlo .5*mm por defecto
 		
 		// generate random x and y positions within that radius
-		double x, y;
+		double x, y, z = -5 * cm; // Aquí estableces z en -5 cm
 
 		// to avoid using slow methods like sin and cos,
 		// we generate random values in a cube and regect the ones
@@ -47,7 +47,16 @@ namespace G4_PCM
 			y = G4UniformRand() * (2.0 * radius) - radius;
 		} while (x * x + y * y > radius * radius);
 
-		G4ThreeVector position = G4ThreeVector(x, y, -5 * cm);
+		//// Add conic behaviour
+		//G4double theta, phi;
+		//G4double angle = 0.0;
+		//theta = angle * (G4UniformRand() - 0.5);
+		//phi = angle * (G4UniformRand() - 0.5);
+		//G4ThreeVector photonMomentum(theta, phi, 1.0);
+		//fParticleGun->SetParticleMomentumDirection(photonMomentum);
+
+		G4ThreeVector position = G4ThreeVector(x, y, z);
+		// G4ThreeVector position = G4ThreeVector(x, y, z);
 		fParticleGun->SetParticlePosition(position);
 
 		// randomize energy with a .127 MeV std:dev gaussean distribution for an e-
@@ -55,7 +64,7 @@ namespace G4_PCM
 		// G4double meanEnergy = 6. * MeV;
 		// G4double stdDev = .127 * MeV;
 		// G4double energy = G4RandGauss::shoot(meanEnergy, stdDev);
-		G4double energy = 100 * keV;
+		G4double energy = 70 * keV;
 
 		// fParticleGun->SetParticleEnergy(energy);
 
