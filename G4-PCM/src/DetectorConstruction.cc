@@ -3,15 +3,15 @@
 namespace G4_PCM
 {
     DetectorConstruction::DetectorConstruction()
-        : fTargetThickness(1 * mm), // Valor predeterminado
-        fMessenger(new DetectorConstructionMessenger(this)) // Crear el mensajero
+        //: fTargetThickness(1 * mm), // Valor predeterminado
+        //fMessenger(new DetectorConstructionMessenger(this)) // Crear el mensajero
     {
     	DefineMaterials();
     }
 
     DetectorConstruction::~DetectorConstruction()
     {
-        delete fMessenger; // Eliminar el mensajero
+        //delete fMessenger; // Eliminar el mensajero
     }
     
     void DetectorConstruction::DefineMaterials()
@@ -58,7 +58,7 @@ namespace G4_PCM
         G4Tubs* solidTarget = new G4Tubs("Target",
             innerTargetRadius,
             outerTargetRadius,
-            fTargetThickness / 2.0,
+            1*mm / 2.0,
             0.0,
             360.0 * deg);
 
@@ -111,18 +111,18 @@ namespace G4_PCM
         return physWorld;
     }
 
-    void DetectorConstruction::SetTargetThickness(G4double thickness)
-    {
-        G4cout << "Setting target thickness to: " << thickness << G4endl;
-        if (thickness != fTargetThickness) {
-            fTargetThickness = thickness;
-            G4cout << "Target thickness changed to: " << fTargetThickness << G4endl;
+    //void DetectorConstruction::SetTargetThickness(G4double thickness)
+    //{
+    //    G4cout << "Setting target thickness to: " << thickness << G4endl;
+    //    if (thickness != fTargetThickness) {
+    //        fTargetThickness = thickness;
+    //        G4cout << "Target thickness changed to: " << fTargetThickness << G4endl;
 
-            // Forzar la actualización de la geometría
-            //G4RunManager::GetRunManager()->ReinitializeGeometry();
-        }
-        else {
-            G4cout << "Target thickness unchanged." << G4endl;
-        }
-    }
+    //        // Forzar la actualización de la geometría
+    //        //G4RunManager::GetRunManager()->ReinitializeGeometry();
+    //    }
+    //    else {
+    //        G4cout << "Target thickness unchanged." << G4endl;
+    //    }
+    //}
 }
