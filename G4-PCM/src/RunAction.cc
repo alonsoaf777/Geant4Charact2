@@ -38,9 +38,21 @@ namespace G4_PCM {
         fTimer.Stop();
         PrintTime();
 
-        // Ejecuta la función de bisección
-        double bestThickness = PerformBisection(uiManager);
-        G4cout << "Bisección finalizada. Mejor valor de t encontrado: " << bestThickness << " nm" << G4endl;
+
+        G4cout
+            << "Total number of hits registrations: "
+            << EventAction::GetNtupleRegistrationCount()
+            << G4endl;
+
+        for (int i = 0; i < 10; ++i) {
+            uiManager->ApplyCommand("/gun/energy 1000 keV");
+            uiManager->ApplyCommand("/run/beamOn 1000000");
+        }
+        // Print the total number of ntuple registrations
+
+        //// Ejecuta la función de bisección
+        //double bestThickness = PerformBisection(uiManager);
+        //G4cout << "Bisección finalizada. Mejor valor de t encontrado: " << bestThickness << " nm" << G4endl;
     }
 
     double RunAction::PerformBisection(G4UImanager* uiManager) {
