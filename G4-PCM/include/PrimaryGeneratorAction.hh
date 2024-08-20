@@ -7,7 +7,7 @@
 #include "globals.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4ParticleGun.hh"
-#include "DetectorConstructionMessenger.hh"
+#include "PrimaryGeneratorMessenger.hh"
 #include "G4UIcmdWithADoubleAndUnit.hh"
 #include "PrimaryGeneratorAction.hh"
 #include "G4RunManager.hh"
@@ -16,7 +16,7 @@
 
 namespace G4_PCM
 {
-	class DetectorConstructionMessenger; // Forward declaration
+	class PrimaryGeneratorMessenger; // Forward declaration
 
 	class PrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction
 	{
@@ -32,7 +32,7 @@ namespace G4_PCM
 		G4double fPgun = -5. * cm; // Valor predeterminado
 
 		G4UIcmdWithADoubleAndUnit* fPgunCmd;
-		DetectorConstructionMessenger* fMessenger; // Pointer to the messenger
+		PrimaryGeneratorMessenger* fMessenger; // Pointer to the messenger
 	};
 }
 

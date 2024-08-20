@@ -12,7 +12,7 @@ namespace G4_PCM
 
 	PrimaryGeneratorAction::PrimaryGeneratorAction()
 		: fPgun(-5 * cm), // Valor predeterminado
-		fMessenger(new DetectorConstructionMessenger(this)) // Crear el mensajero
+		fMessenger(new PrimaryGeneratorMessenger(this)) // Crear el mensajero
 	{
 		// set up particle gun
 		G4int nParticles = 1;
