@@ -82,10 +82,10 @@ namespace G4_PCM
 
 	void PrimaryGeneratorAction::SetGunZpos(G4double zpos)
 	{
-		G4cout << "Setting target thickness to: " << zpos << G4endl;
+		G4cout << "Setting source position to: " << zpos << G4endl;
 		if (zpos != fPgun) {
 			fPgun = zpos;
-			G4cout << "Target thickness changed to: " << fPgun << G4endl;
+			G4cout << "Source Position changed to: " << fPgun << G4endl;
 
 			// Forzar la actualización de la geometría
 			//G4RunManager::GetRunManager()->ReinitializeGeometry();
