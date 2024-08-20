@@ -14,7 +14,7 @@ namespace G4_PCM
         fTargetThicknessCmd->SetGuidance("Set the target thickness.");
         fTargetThicknessCmd->SetParameterName("thickness", true);
         fTargetThicknessCmd->SetRange("thickness > 0.");
-        fTargetThicknessCmd->SetDefaultUnit("mm");
+        fTargetThicknessCmd->SetDefaultUnit("nm");
     }
 
     DetectorConstructionMessenger::~DetectorConstructionMessenger()

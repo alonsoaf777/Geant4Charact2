@@ -48,7 +48,7 @@ namespace G4_PCM {
         double t_min = 20.0; // nm
         double t_max = 20000000.0; // nm
         double tolerance = 1.0; // nm, tolerancia para la convergencia
-        int maxIterations = 100; // Máximo número de iteraciones
+        int maxIterations = 10000; // Máximo número de iteraciones
 
         for (int i = 0; i < maxIterations; ++i) {
             // Calcula el valor medio
@@ -63,11 +63,12 @@ namespace G4_PCM {
             }
 
             // Reconfigura la geometría
-            status = uiManager->ApplyCommand("/run/reinitializeGeometry");
-            if (status != 0) {
-                G4cerr << "Error al ejecutar /run/reinitializeGeometry" << G4endl;
-                break;
-            }
+            //status = uiManager->ApplyCommand("/run/reinitializeGeometry");
+            //if (status != 0) {
+            //    G4cerr << "Error al ejecutar /run/reinitializeGeometry" << G4endl;
+            //    break;
+            //}
+            G4RunManager::GetRunManager()->ReinitializeGeometry();
 
             // Ejecuta una corrida con 10000 eventos
             uiManager->ApplyCommand("/run/beamOn 10000");
