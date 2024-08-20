@@ -24,7 +24,6 @@ public:
 
 private:
 	G4ParticleGun *fParticleGun; 
-	G4GenericMessenger *fMessenger; 
 	
 	G4double zPos; 
 };

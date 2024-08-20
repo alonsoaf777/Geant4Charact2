@@ -2,9 +2,8 @@
 
 MyPrimaryGenerator::MyPrimaryGenerator()
 {	
-	//Generic message for spawning the particle gun x
-	fMessenger = new G4GenericMessenger(this, "/generator/", "Particle Generator");
-	fMessenger->DeclareProperty("zPos", zPos, "Z position of particle");
+	//Direction and messenger
+	const MyDetectorConstruction *detectorConstruction = static_cast<const MyDetectorConstruction*> (G4RunManager::GetRunManager()->GetUserDetectorConstruction()); 
 	
 	zPos = -35*cm;
 	  
@@ -22,23 +21,28 @@ MyPrimaryGenerator::MyPrimaryGenerator()
 	G4double minY = -50*cm, maxY = 50*cm;
 	
 	// Generate random position within the world volume
-   	//G4double posX = G4UniformRand() * (maxX - minX) + minX;
-    	//G4double posY = G4UniformRand() * (maxY - minY) + minY;
+   	G4double posX = G4UniformRand() * (maxX - minX) + minX;
+    	G4double posY = G4UniformRand() * (maxY - minY) + minY;
 	
+	//Random
+	//G4ThreeVector gunPosition(posX, posY, zPos); 
 	
-	G4ThreeVector gunPosition(0, 0, zPos); 
+	//Normal
+	G4ThreeVector gunPosition(0., 0., zPos);
 	fParticleGun->SetParticlePosition(gunPosition);
 	
-	//Direction
-	const MyDetectorConstruction *detectorConstruction = static_cast<const MyDetectorConstruction*> (G4RunManager::GetRunManager()->GetUserDetectorConstruction()); 
 	
 	G4ThreeVector targetPosition = detectorConstruction->GetTargetPosition(); 
 	
 	G4ThreeVector direction = (targetPosition - gunPosition).unit(); 
 	
-	fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0.,0., 1)); 
+	//Center of target
+	//fParticleGun->SetParticleMomentumDirection(direction); 
+	
+	// 0 0 1
+	fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0., 0., 1)); 
 	fParticleGun->SetParticleDefinition(particle);  
-
+	
 }
 
 MyPrimaryGenerator::~MyPrimaryGenerator()

@@ -9,11 +9,11 @@ CrossRun::CrossRun()
 CrossRun::~CrossRun()
 {}
 
-void CrossRun::SetPrimary(G4ParticleDefinition *particle, G4double energy, G4ThreeVector gunPos)
+void CrossRun::SetPrimary(G4ParticleDefinition *particle, G4double energy) //,G4ThreeVector gunPos)
 {
 	fParticle = particle; 
 	fEkin = energy; 
-	pos = gunPos; 
+	//pos = gunPos; 
 }
 
 void CrossRun::CountProcesses(G4String procName)
@@ -41,8 +41,6 @@ void CrossRun::EndOfRun()
 	//Create an object to store the thickness
 	const MyDetectorConstruction *detectorConstruction = static_cast<const MyDetectorConstruction*> (G4RunManager::GetRunManager()->GetUserDetectorConstruction()); 
 	
-	const MyPrimaryGenerator *primaryGenerator = static_cast<const MyPrimaryGenerator*> (G4RunManager::GetRunManager()->GetUserPrimaryGeneratorAction());
-	 
 	G4Material *material = detectorConstruction->GetMaterial(); 
 	G4double density = material->GetDensity(); 
 	
@@ -55,8 +53,8 @@ void CrossRun::EndOfRun()
         << G4BestUnit(fEkin,"Energy") << " through " 
         << G4BestUnit(thickness,"Length") << " of "
         << material->GetName() << " (density: " 
-        << G4BestUnit(density,"Volumic Mass") << ") " 
-        << G4BestUnit(pos, "Length")<< G4endl;
+        << G4BestUnit(density,"Volumic Mass") << ") " << G4endl; 
+        //<< G4BestUnit(pos, "Length")<< G4endl;
         
         //Frecuency
         //frequency of processes

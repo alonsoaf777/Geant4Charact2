@@ -21,6 +21,7 @@ private:
 	MyEventAction *fEventAction; 
 	//bool fInteractionCounted; 
 	//G4int i; 
+
 };
 
 #endif

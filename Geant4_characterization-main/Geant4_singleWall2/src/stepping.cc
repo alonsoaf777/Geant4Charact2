@@ -42,4 +42,5 @@ void MySteppingAction::UserSteppingAction(const G4Step *step)
 
 	//kill after interaction
 	G4RunManager::GetRunManager()->AbortEvent(); 
+	
 }

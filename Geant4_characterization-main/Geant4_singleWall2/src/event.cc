@@ -26,6 +26,11 @@ void MyEventAction::EndOfEventAction(const G4Event*)
 	man->FillNtupleDColumn(0, 0, fEdep); 
 	man->AddNtupleRow(0); 
 	
+	const MyPrimaryGenerator *primaryGenerator = static_cast<const MyPrimaryGenerator*> (G4RunManager::GetRunManager()->GetUserPrimaryGeneratorAction()); 
 	
+	G4ThreeVector pos(primaryGenerator->GetParticleGun()->GetParticlePosition()); 
+	
+	
+	G4cout << "Particle position: " << pos << " " << G4endl; 
 	
 }

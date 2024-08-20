@@ -1,6 +1,5 @@
 /gun/momentumAmp 100 keV
 /detector/targetWidth .1
-/generator/zPos -35 cm
 /tracking/verbose 1
 /run/reinitializeGeometry
 /run/beamOn 1000
