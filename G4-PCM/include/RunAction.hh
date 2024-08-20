@@ -3,12 +3,9 @@
 
 #include "G4UserRunAction.hh"
 #include "G4AnalysisManager.hh"
-
-// timing the run
 #include "G4Timer.hh"
-
-// Include EventAction to reset the ntuple registration count
-#include "EventAction.hh"
+#include "EventAction.hh" // Include EventAction to reset the ntuple registration count
+#include "G4UImanager.hh" // Include for G4UImanager
 
 namespace G4_PCM {
 
@@ -26,6 +23,9 @@ namespace G4_PCM {
         G4Timer fTimer;
 
         void PrintTime();
+
+        // Declare the bisection function
+        double PerformBisection(G4UImanager* uiManager);
     };
 
 }
