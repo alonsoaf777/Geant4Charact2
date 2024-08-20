@@ -6,7 +6,6 @@
 #include "G4Timer.hh"
 #include "EventAction.hh" // Include EventAction to reset the ntuple registration count
 #include "G4UImanager.hh" // Include for G4UImanager
-#include "G4RunManager.hh"
 
 namespace G4_PCM {
 
