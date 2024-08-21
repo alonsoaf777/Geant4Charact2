@@ -31,7 +31,8 @@ void MySteppingAction::UserSteppingAction(const G4Step *step)
 	
 	//Gets the total energy of all detector 
 	G4double edep = step->GetTotalEnergyDeposit(); 
-	fEventAction->AddEdep(edep); 
+	
+	if (edep > 0.0001 *eV) {fEventAction->AddEdep(edep); } 
 	
 	//Process Counter
 	G4StepPoint* endPoint = step->GetPostStepPoint(); 
@@ -41,6 +42,6 @@ void MySteppingAction::UserSteppingAction(const G4Step *step)
 	
 
 	//kill after interaction
-	G4RunManager::GetRunManager()->AbortEvent(); 
+	//G4RunManager::GetRunManager()->AbortEvent(); 
 	
 }
