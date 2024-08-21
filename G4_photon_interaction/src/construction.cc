@@ -11,7 +11,7 @@ MyDetectorConstruction::MyDetectorConstruction()
 	
 	nCols = 30; 
 	nRows = 30;
-	singleWallZ =  1 * cm;
+	singleWallZ =  0.1* mm;
 	//Position of the target to access it in the generator
 	targetPosition = G4ThreeVector(0., 0., 5*cm);
 	
@@ -44,7 +44,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
 	// ---------------------- Geometry
 	G4double worldSizeXYZ = 1*m / 2;
 	G4double singleWallXY = 25*cm / 2; 
-	G4double singleWallZ2 = singleWallZ / 2; 
+	G4double singleWallZ2 = singleWallZ /2; 
 	//singleWallZ =
 	G4double detectorZ = 2*cm / 2; 
 	// Construction

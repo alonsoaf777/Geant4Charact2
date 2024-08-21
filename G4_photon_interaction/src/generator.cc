@@ -16,7 +16,7 @@ MyPrimaryGenerator::MyPrimaryGenerator()
 	
 	//Properties of the table
 	G4ParticleDefinition *particle = ParticleTable->FindParticle("gamma"); 
-	fParticleGun->SetParticleEnergy(300 * MeV); 
+	fParticleGun->SetParticleEnergy(10 * keV); 
 	//Position
 	G4double minX = -50*cm, maxX = 50*cm; 
 	G4double minY = -50*cm, maxY = 50*cm;
