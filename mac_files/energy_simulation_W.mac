@@ -1,0 +1,4555 @@
+/det/t 60 nm
+/run/reinitializeGeometry
+/gun/energy 0.0061305 keV
+/run/beamOn 10000
+
+/det/t 60 nm
+/run/reinitializeGeometry
+/gun/energy 0.006222 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.01069 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.01142761 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.01221612 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.01305903 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.0139601 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.01492335 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.01595306 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.01705382 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.01823053 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.01948844 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.02083314 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.02227063 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.0238073 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.02545001 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.02720606 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.02908327 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.03109002 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.032928 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.03323523 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.033432 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.0335664 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.033768 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.034272 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.034888 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.035422 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.03552846 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.0355644 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.03577 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.035778 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.0363175 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.0364635 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.0366825 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.03723 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.03797993 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.04060054 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.04340198 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.045864 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.04639671 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.046566 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.0467532 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.047034 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.047736 keV
+/run/beamOn 10000
+
+/det/t 80 nm
+/run/reinitializeGeometry
+/gun/energy 0.04959809 keV
+/run/beamOn 10000
+
+/det/t 120 nm
+/run/reinitializeGeometry
+/gun/energy 0.05302035 keV
+/run/beamOn 10000
+
+/det/t 120 nm
+/run/reinitializeGeometry
+/gun/energy 0.05667876 keV
+/run/beamOn 10000
+
+/det/t 120 nm
+/run/reinitializeGeometry
+/gun/energy 0.06058959 keV
+/run/beamOn 10000
+
+/det/t 120 nm
+/run/reinitializeGeometry
+/gun/energy 0.06477028 keV
+/run/beamOn 10000
+
+/det/t 120 nm
+/run/reinitializeGeometry
+/gun/energy 0.06923942 keV
+/run/beamOn 10000
+
+/det/t 120 nm
+/run/reinitializeGeometry
+/gun/energy 0.07401695 keV
+/run/beamOn 10000
+
+/det/t 120 nm
+/run/reinitializeGeometry
+/gun/energy 0.075558 keV
+/run/beamOn 10000
+
+/det/t 120 nm
+/run/reinitializeGeometry
+/gun/energy 0.0767145 keV
+/run/beamOn 10000
+
+/det/t 120 nm
+/run/reinitializeGeometry
+/gun/energy 0.0770229 keV
+/run/beamOn 10000
+
+/det/t 120 nm
+/run/reinitializeGeometry
+/gun/energy 0.0774855 keV
+/run/beamOn 10000
+
+/det/t 120 nm
+/run/reinitializeGeometry
+/gun/energy 0.078642 keV
+/run/beamOn 10000
+
+/det/t 120 nm
+/run/reinitializeGeometry
+/gun/energy 0.07912411 keV
+/run/beamOn 10000
+
+/det/t 120 nm
+/run/reinitializeGeometry
+/gun/energy 0.08458368 keV
+/run/beamOn 10000
+
+/det/t 120 nm
+/run/reinitializeGeometry
+/gun/energy 0.09041995 keV
+/run/beamOn 10000
+
+/det/t 120 nm
+/run/reinitializeGeometry
+/gun/energy 0.09665893 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.1 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.1005 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.1010025 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.10150751 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.10201505 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.10252513 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.10303775 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.10355294 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.1040707 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.10459106 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.10511401 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.10563958 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.10616778 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.10669862 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.10723211 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.10776827 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.10830712 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.10884865 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.10939289 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.10993986 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.11048956 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.11104201 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.11159722 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.1121552 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.11271598 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.11327956 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.11384596 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.11441519 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.11498726 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.1155622 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.11614001 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.11672071 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.11730431 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.11789083 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.11848029 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.11907269 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.11966805 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.12026639 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.12086772 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.12147206 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.12207942 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.12268982 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.12330327 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.12391979 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.12453939 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.12516208 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.12578789 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.12641683 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.12704892 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.12768416 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.12832258 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.12896419 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.12960902 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.13025706 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.13090835 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.13156289 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.1322207 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.13288181 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.13354621 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.13421395 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.13488502 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.13555944 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.13623724 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.13691842 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.13760302 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.13829103 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.13898249 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.1396774 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.14037579 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.14107766 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.14178305 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.14249197 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.14320443 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.14392045 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.14464005 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.14536325 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.14609007 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.14682052 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.14755462 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.14829239 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.14903386 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.14977903 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.15052792 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.15128056 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.15203696 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.15279715 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.15356113 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.15432894 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.15510058 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.15587609 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.15665547 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.15743875 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.15822594 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.15901707 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.15981215 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.16061121 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.16141427 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.16222134 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.16303245 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.16384761 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.16466685 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.16549018 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.16631763 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.16714922 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.16798497 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.16882489 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.16966902 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.17051736 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.17136995 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.1722268 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.17308793 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.17395337 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.17482314 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.17569726 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.17657574 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.17745862 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.17834591 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.17923764 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.18013383 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.1810345 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.18193967 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.18284937 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.18376362 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.18468244 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.18560585 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.18653388 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.18746655 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.18840388 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.1893459 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.19029263 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.19124409 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.19220031 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.19316131 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.19412712 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.19509776 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.19607325 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.19705361 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.19803888 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.19902907 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.20002422 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.20102434 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.20202946 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.20303961 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.20405481 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.20507508 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.20610046 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.20713096 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.20816661 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.20920745 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.21025348 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.21130475 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.21236128 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.21342308 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.2144902 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.21556265 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.21664046 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.21772366 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.21881228 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.21990634 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.22100588 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.2221109 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.22322146 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.22433757 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.22545925 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.22658655 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.22771948 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.22885808 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.23000237 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.23115238 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.23230814 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.23346969 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.23463703 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.23581022 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.23698927 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.23817422 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.23936509 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.24056191 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.24176472 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.24297355 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.24418841 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.24521055 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.24540936 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.24558945 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.2466364 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.24786959 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.24910893 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.25035448 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.25160625 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.25286428 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.2541286 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.25539925 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.25667624 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.25795962 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.25859581 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.25900419 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.25924942 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.26054567 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.2618484 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.26315764 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.26447343 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.26579579 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.26712477 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.2684604 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.2698027 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.27115171 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.27250747 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.27387001 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.27523936 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.27661556 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.27799863 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.27938863 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.28078557 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.2821895 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.28360044 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.28501845 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.28644354 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.28787576 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.28931514 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.29076171 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.29221552 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.2936766 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.29514498 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.29662071 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.29810381 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.29959433 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.3010923 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.30259776 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.30411075 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.3056313 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.30715946 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.30869526 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.31023873 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.31178993 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.31334888 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.31491562 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.3164902 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.31807265 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.31966301 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.32126133 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.32286764 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.32448197 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.32610438 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.32773491 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.32937358 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.33102045 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.33267555 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.33433893 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.33601062 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.33769068 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.33937913 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.34107602 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.3427814 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.34449531 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.34621779 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.34794888 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.34968862 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.35143706 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.35319425 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.35496022 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.35673502 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.3585187 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.36031129 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.36211285 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.36392341 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.36574303 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.36757174 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.3694096 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.37125665 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.37311293 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.3749785 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.37685339 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.37873766 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.38063135 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.3825345 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.38444718 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.38636941 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.38830126 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.39024276 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.39219398 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.39415495 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.39612572 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.39810635 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.40009688 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.40209737 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.40410785 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.40612839 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.40815904 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.41019983 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.41225083 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.41431208 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.41638364 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.41846556 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.42055789 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.42266068 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.42477398 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.42477688 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.42582312 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.42689785 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.42903234 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.4311775 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.43333339 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.43550006 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.43767756 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.43986595 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.44206528 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.4442756 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.44649698 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.44872947 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.45097311 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.45322798 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.45549412 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.45777159 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.46006045 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.46236075 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.46467255 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.46699592 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.4693309 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.47167755 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.47403594 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.47640612 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.47878815 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.48118209 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.483588 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.48600594 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.48843597 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.49087815 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.4909216 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.49227841 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.49333254 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.4957992 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.4982782 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.50076959 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.50327344 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.5057898 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.50831875 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.51086035 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.51341465 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.51598172 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.51856163 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.52115444 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.52376021 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.52637901 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.52901091 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.53165596 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.53431424 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.53698581 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.53967074 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.5423691 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.54508094 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.54780635 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.55054538 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.5532981 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.5560646 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.55884492 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.56163914 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.56444734 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.56726958 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.57010592 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.57295645 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.57582123 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.57870034 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.58159384 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.58450181 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.58742432 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.59036144 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.59331325 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.59410753 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.59589253 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.59627982 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.59926122 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.60225752 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.60526881 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.60829515 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.61133663 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.61439331 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.61746528 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.6205526 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.62365537 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.62677364 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.62990751 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.63305705 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.63622234 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.63940345 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.64260046 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.64581347 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.64904253 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.65228775 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.65554919 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.65882693 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.66212107 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.66543167 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.66875883 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.67210262 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.67546314 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.67884045 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.68223466 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.68564583 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.68907406 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.69251943 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.69598202 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.69946194 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.70295924 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.70647404 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.71000641 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.71355644 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.71712423 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.72070985 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.7243134 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.72793496 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.73157464 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.73523251 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.73890867 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.74260322 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.74631623 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.75004781 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.75379805 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.75756704 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.76135488 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.76516165 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.76898746 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.7728324 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.77669656 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.78058004 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.78448294 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.78840536 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.79234738 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.79630912 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.80029067 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.80429212 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.80831358 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.81235515 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.81641693 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.82049901 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.8246015 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.82872451 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.83286813 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.83703248 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.84121764 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.84542373 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.84965084 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.8538991 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.85816859 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.86245944 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.86677173 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.87110559 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.87546112 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.87983843 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.88423762 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.88865881 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.8931021 keV
+/run/beamOn 10000
+
+/det/t 280 nm
+/run/reinitializeGeometry
+/gun/energy 0.89756761 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.90205545 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.90656573 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.91109856 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.91565405 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.92023232 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.92483348 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.92945765 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.93410494 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.93877546 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.94346934 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.94818668 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.95292762 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.95769226 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.96248072 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.96729312 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.97212959 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.97699023 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.98187519 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.98678456 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.99171848 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 0.99667708 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0016605 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0066688 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0117021 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0167606 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0218444 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0269536 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0320884 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0372489 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0424351 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0476473 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0528855 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0581499 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0634407 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0687579 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0741017 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0794722 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0848695 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0902939 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.0957454 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.1012241 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.1067302 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.1122639 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.1178252 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.1234143 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.1290314 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.1346765 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.1403499 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.1460517 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.1517819 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.1575408 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.1633285 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.1691452 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.1749909 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.1808659 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.1867702 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.192704 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.1986676 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.2046609 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.2106842 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.2167376 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.2228213 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.2289354 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.2350801 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.2412555 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.2474618 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.2536991 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.2599676 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.2662674 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.2725988 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.2789618 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.2853566 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.2917833 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.2982423 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.3047335 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.3112571 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.3178134 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.3244025 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.3310245 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.3376796 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.344368 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.3510899 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.3578453 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.3646345 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.3714577 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.378315 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.3852066 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.3921326 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.3990933 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.4060887 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.4131192 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.4201848 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.4272857 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.4344221 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.4415942 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.4488022 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.4560462 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.4633265 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.4706431 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.4779963 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.4853863 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.4928132 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.5002773 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.5077787 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.5153176 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.5228942 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.5305086 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.5381612 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.545852 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.5535812 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.5613491 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.5691559 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.5770017 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.5848867 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.5928111 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.6007752 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.608779 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.6168229 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.624907 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.6330316 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.6411967 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.6494027 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.6576497 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.665938 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.6742677 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.682639 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.6910522 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.6995075 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.708005 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.716545 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.7251278 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.7337534 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.7424222 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.7511343 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.7598899 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.7686894 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.7775328 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.7864205 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.7953526 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.8043294 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.8088491 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.809551 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.813351 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.8224178 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.8315299 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.8406875 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.8498909 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.8591404 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.8684361 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.8709394 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.8722607 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.8777783 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.8871672 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.896603 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.906086 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.9156165 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.9251945 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.9348205 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.9444946 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.9542171 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.9639882 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.9738081 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.9836772 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 1.9935955 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.0035635 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.0135813 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.0236492 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.0337675 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.0439363 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.054156 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.0644268 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.0747489 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.0851227 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.0955483 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.106026 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.1165562 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.1271389 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.1377746 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.1484635 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.1592058 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.1700018 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.1808519 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.1917561 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.2027149 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.2137285 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.2247971 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.2359211 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.2471007 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.2583362 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.2696279 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.2786505 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.280976 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.2833493 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.2923809 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.3038428 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.315362 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.3269388 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.3385735 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.3502664 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.3620177 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.3738278 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.385697 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.3976254 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.4096136 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.4216616 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.4337699 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.4459388 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.4581685 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.4704593 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.4828116 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.4952257 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.5077018 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.5202403 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.5328415 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.5455057 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.5582333 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.5710244 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.5716555 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.5781443 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.5838796 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.596799 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.6097829 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.6228319 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.635946 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.6491257 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.6623714 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.6756832 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.6890617 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.702507 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.7160195 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.7295996 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.7432476 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.7569638 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.7707486 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.7846024 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.7985254 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.812518 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.8140455 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.8251547 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.8265806 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.8407135 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.8549171 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.8691917 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.8835376 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.8979553 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.9124451 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.9270073 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.9416424 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.9563506 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.9711323 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 2.985988 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.0009179 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.0159225 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.0310021 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.0461571 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.0613879 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.0766949 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.0920783 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.1075387 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.1230764 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.1386918 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.1543853 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.1701572 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.186008 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.201938 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.2179477 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.2340374 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.2502076 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.2664587 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.282791 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.2992049 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.3157009 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.3322794 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.3489408 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.3656856 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.382514 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.3994265 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.4164237 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.4335058 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.4506733 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.4679267 keV
+/run/beamOn 10000
+
+/det/t 700 nm
+/run/reinitializeGeometry
+/gun/energy 3.4852663 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.5026927 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.5202061 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.5378072 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.5554962 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.5732737 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.59114 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.6090957 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.6271412 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.6452769 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.6635033 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.6818208 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.7002299 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.7187311 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.7373247 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.7560114 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.7747914 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.7936654 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.8126337 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.8316969 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.8508554 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.8701096 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.8894602 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.9089075 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.928452 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.9480943 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.9678347 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 3.9876739 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 4.055024 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 4.334821 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 4.633924 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 4.953664 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 5.295467 keV
+/run/beamOn 10000
+
+/det/t 2200 nm
+/run/reinitializeGeometry
+/gun/energy 5.660855 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 6.051453 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 6.469004 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 6.915365 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 7.392525 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 7.902609 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 8.44789 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 9.030794 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 9.653919 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 10.00266 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 10.15577 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 10.19659 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 10.25783 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 10.32004 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 10.41094 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 11.03212 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 11.31312 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 11.48628 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 11.53246 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 11.60172 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 11.77488 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 11.79334 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 11.8578 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 12.0393 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 12.0877 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 12.1603 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 12.3418 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 12.60708 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 13.47697 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 14.40688 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 15.40095 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 16.46362 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 17.59961 keV
+/run/beamOn 10000
+
+/det/t 9000 nm
+/run/reinitializeGeometry
+/gun/energy 18.81398 keV
+/run/beamOn 10000
+
+/det/t 40000 nm
+/run/reinitializeGeometry
+/gun/energy 20.11215 keV
+/run/beamOn 10000
+
+/det/t 40000 nm
+/run/reinitializeGeometry
+/gun/energy 21.49988 keV
+/run/beamOn 10000
+
+/det/t 40000 nm
+/run/reinitializeGeometry
+/gun/energy 22.98338 keV
+/run/beamOn 10000
+
+/det/t 40000 nm
+/run/reinitializeGeometry
+/gun/energy 24.56923 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 26.2645 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 28.07676 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 30.01405 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 32.08502 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 34.29889 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 36.66551 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 39.19543 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 41.89992 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 44.79101 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 47.88159 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 51.18542 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 54.71721 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 58.4927 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 62.5287 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 66.84318 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 68.1345 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 69.17738 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 69.45548 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 69.87263 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 70.9155 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 71.45536 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 76.38578 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 81.6564 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 87.29069 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 93.31374 keV
+/run/beamOn 10000
+
+/det/t 0.1 mm
+/run/reinitializeGeometry
+/gun/energy 99.75239 keV
+/run/beamOn 10000
+
+/det/t 1 mm
+/run/reinitializeGeometry
+/gun/energy 106.6353 keV
+/run/beamOn 10000
+
+/det/t 1 mm
+/run/reinitializeGeometry
+/gun/energy 113.9931 keV
+/run/beamOn 10000
+
+/det/t 1 mm
+/run/reinitializeGeometry
+/gun/energy 121.8587 keV
+/run/beamOn 10000
+
+/det/t 1 mm
+/run/reinitializeGeometry
+/gun/energy 130.2669 keV
+/run/beamOn 10000
+
+/det/t 1 mm
+/run/reinitializeGeometry
+/gun/energy 139.2553 keV
+/run/beamOn 10000
+
+/det/t 1 mm
+/run/reinitializeGeometry
+/gun/energy 148.864 keV
+/run/beamOn 10000
+
+/det/t 1 mm
+/run/reinitializeGeometry
+/gun/energy 159.1356 keV
+/run/beamOn 10000
+
+/det/t 1 mm
+/run/reinitializeGeometry
+/gun/energy 170.1159 keV
+/run/beamOn 10000
+
+/det/t 1 mm
+/run/reinitializeGeometry
+/gun/energy 181.8539 keV
+/run/beamOn 10000
+
+/det/t 1 mm
+/run/reinitializeGeometry
+/gun/energy 194.4018 keV
+/run/beamOn 10000
+
+/det/t 5 mm
+/run/reinitializeGeometry
+/gun/energy 207.8156 keV
+/run/beamOn 10000
+
+/det/t 5 mm
+/run/reinitializeGeometry
+/gun/energy 222.1548 keV
+/run/beamOn 10000
+
+/det/t 5 mm
+/run/reinitializeGeometry
+/gun/energy 237.4835 keV
+/run/beamOn 10000
+
+/det/t 5 mm
+/run/reinitializeGeometry
+/gun/energy 253.8699 keV
+/run/beamOn 10000
+
+/det/t 5 mm
+/run/reinitializeGeometry
+/gun/energy 271.3869 keV
+/run/beamOn 10000
+
+/det/t 5 mm
+/run/reinitializeGeometry
+/gun/energy 290.1126 keV
+/run/beamOn 10000
+
+/det/t 13 mm
+/run/reinitializeGeometry
+/gun/energy 310.1304 keV
+/run/beamOn 10000
+
+/det/t 13 mm
+/run/reinitializeGeometry
+/gun/energy 331.5294 keV
+/run/beamOn 10000
+
+/det/t 13 mm
+/run/reinitializeGeometry
+/gun/energy 354.4049 keV
+/run/beamOn 10000
+
+/det/t 13 mm
+/run/reinitializeGeometry
+/gun/energy 378.8588 keV
+/run/beamOn 10000
+
+/det/t 13 mm
+/run/reinitializeGeometry
+/gun/energy 405.0001 keV
+/run/beamOn 10000
+
+/det/t 13 mm
+/run/reinitializeGeometry
+/gun/energy 432.9451 keV
+/run/beamOn 10000
+

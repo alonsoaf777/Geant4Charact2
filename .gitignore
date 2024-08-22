@@ -334,3 +334,6 @@ a.out
 *.su
 *.idb
 *.pdb
+*build*
+.vs/
+{yourgitprojectname}/.vs

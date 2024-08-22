@@ -1,0 +1,13 @@
+# a simple test run
+/run/initialize
+
+/run/beamOn 1
+
+/gun/energy 0.01 keV
+/run/beamOn 1000
+
+/gun/energy 1.0 keV
+/run/beamOn 1000
+
+/gun/energy 100.0 keV
+/run/beamOn 1000
