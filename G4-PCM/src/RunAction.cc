@@ -11,7 +11,10 @@ namespace G4_PCM {
         analysisManager->SetNtupleMerging(true);
         analysisManager->SetVerboseLevel(4);
         analysisManager->CreateNtuple("G4_PCM", "Hits");
-        analysisManager->CreateNtupleDColumn("Energy");
+        analysisManager->CreateNtupleDColumn("Energy");//   id = 0
+        analysisManager->CreateNtupleDColumn("PositionX"); //id = 1
+        analysisManager->CreateNtupleDColumn("PositionY"); //id = 2
+        analysisManager->CreateNtupleDColumn("PositionZ"); //id = 3
         analysisManager->FinishNtuple();
     }
 
@@ -22,7 +25,7 @@ namespace G4_PCM {
         fTimer.Start();
         auto* analysisManager = G4AnalysisManager::Instance();
         G4int runNumber = aRun->GetRunID();
-        G4String fileName = "NTuples_Run" + std::to_string(runNumber);
+        G4String fileName = "Sim" + std::to_string(runNumber);
         analysisManager->SetFileName(fileName);
         analysisManager->OpenFile();
 

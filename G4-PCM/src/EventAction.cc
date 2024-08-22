@@ -23,8 +23,16 @@ namespace G4_PCM {
 
     void EventAction::EndOfEventAction(const G4Event* anEvent) {
         if (fEnergy > 0.0) {
+            G4int energyColumnId = 0;
+            G4int posXColumnId = 1;
+            G4int posYColumnId = 2;
+            G4int posZColumnId = 3;
+
             G4AnalysisManager* man = G4AnalysisManager::Instance();
-            man->FillNtupleDColumn(0, 0, fEnergy / keV);
+            man->FillNtupleDColumn(0, energyColumnId, fEnergy / keV);
+            man->FillNtupleDColumn(0, posXColumnId, fPosition.getX());
+            man->FillNtupleDColumn(0, posYColumnId, fPosition.getY());
+            man->FillNtupleDColumn(0, posZColumnId, fPosition.getZ());
             man->AddNtupleRow(0);
 
             // Increment the registration count
@@ -36,6 +44,10 @@ namespace G4_PCM {
         G4cout
             << "Energy: "
             << G4BestUnit(fEnergy, "Energy")
+			<< "Position: "
+			<< G4BestUnit(fPosition.getX(), "Length")
+			<< G4BestUnit(fPosition.getY(), "Length")
+			<< G4BestUnit(fPosition.getZ(), "Length")
             << G4endl;
     }
 
