@@ -20,7 +20,7 @@ namespace G4_PCM
         G4NistManager* nist = G4NistManager::Instance();
 
         // Define el material para el objetivo
-        target = nist->FindOrBuildMaterial("G4_W");
+        target = nist->FindOrBuildMaterial("G4_Si");
         vacuum = nist->FindOrBuildMaterial("G4_Galactic");
         
         // Configure Lead Tungstate for crystals
