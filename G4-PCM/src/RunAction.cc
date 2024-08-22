@@ -22,7 +22,8 @@ namespace G4_PCM {
         fTimer.Start();
         auto* analysisManager = G4AnalysisManager::Instance();
         G4int runNumber = aRun->GetRunID();
-        G4String fileName = "NTuples_Run" + std::to_string(runNumber);
+        //G4String fileName = "Sim" + std::to_string(runNumber);
+        G4String fileName = "Sim";
         analysisManager->SetFileName(fileName);
         analysisManager->OpenFile();
 

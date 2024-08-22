@@ -22,11 +22,12 @@ namespace G4_PCM {
     }
 
     void EventAction::EndOfEventAction(const G4Event* anEvent) {
-        if (fEnergy > 0.0) {
+
             G4AnalysisManager* man = G4AnalysisManager::Instance();
             man->FillNtupleDColumn(0, 0, fEnergy / keV);
             man->AddNtupleRow(0);
 
+        if (fEnergy > 0.0) {
             // Increment the registration count
             ++fNtupleRegistrationCount;
         }
