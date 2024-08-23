@@ -19,8 +19,14 @@ namespace G4_PCM
     	// Get nist material manager
         G4NistManager* nist = G4NistManager::Instance();
 
+        // Configure Vanadium Oside
+        E_V2O5 = new G4Material("E_V2O5", 3.36 * g / cm3, 2);
+        E_V2O5->AddElement(nist->FindOrBuildElement("V"), 2);
+        E_V2O5->AddElement(nist->FindOrBuildElement("O"), 5);
+
         // Define el material para el objetivo
-        target = nist->FindOrBuildMaterial("G4_Si");
+        // target = nist->FindOrBuildMaterial("G4_Si");
+        target = E_V2O5;
         vacuum = nist->FindOrBuildMaterial("G4_Galactic");
         
         // Configure Lead Tungstate for crystals

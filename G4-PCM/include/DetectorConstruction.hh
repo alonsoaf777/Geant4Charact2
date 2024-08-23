@@ -40,7 +40,7 @@ namespace G4_PCM
         DetectorConstructionMessenger* fMessenger; // Pointer to the messenger
         
         
-        G4Material *target, *vacuum, *E_PbWO4; 
+        G4Material *target, *vacuum, *E_PbWO4, * E_V2O5;
         
         void DefineMaterials();
         
