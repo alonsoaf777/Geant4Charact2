@@ -54,7 +54,7 @@ namespace G4_PCM
 		const G4double pi = 3.14159265358979323846;
 
 		// Define el ángulo en grados
-		G4double angleInDegrees = 20.0;  // 45 grados
+		G4double angleInDegrees = 0.0;  // 45 grados
 
 		// Convierte el ángulo a radianes
 		G4double angleInRadians = angleInDegrees * (pi / 180.0);
