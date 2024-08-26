@@ -3,6 +3,7 @@
 #include "G4Event.hh"
 #include "G4ParticleTable.hh"
 #include "G4ParticleDefinition.hh"
+#include "G4SystemOfUnits.hh"
 
 #include "Randomize.hh"
 
@@ -36,7 +37,7 @@ namespace G4_PCM
 	void PrimaryGeneratorAction::GeneratePrimaries(G4Event* event)
 	{
 		// Randomize x and y starting point within a 1 mm diameter
-		G4double radius = 10 * mm; // hay que cambiarlo .5*mm por defecto
+		G4double radius = 0.5 * mm; // hay que cambiarlo .5*mm por defecto
 		
 		// generate random x and y positions within that radius
 		double x, y, z = fPgun; // Aquí estableces z en -5 cm
@@ -49,13 +50,21 @@ namespace G4_PCM
 			y = G4UniformRand() * (2.0 * radius) - radius;
 		} while (x * x + y * y > radius * radius);
 
-		//// Add conic behaviour
-		//G4double theta, phi;
-		//G4double angle = 0.0;
-		//theta = angle * (G4UniformRand() - 0.5);
-		//phi = angle * (G4UniformRand() - 0.5);
-		//G4ThreeVector photonMomentum(theta, phi, 1.0);
-		//fParticleGun->SetParticleMomentumDirection(photonMomentum);
+		// Define el valor de π
+		const G4double pi = 3.14159265358979323846;
+
+		// Define el ángulo en grados
+		G4double angleInDegrees = 20.0;  // 45 grados
+
+		// Convierte el ángulo a radianes
+		G4double angleInRadians = angleInDegrees * (pi / 180.0);
+
+		// Add conic behaviour
+		G4double theta, phi;
+		theta = angleInRadians * (G4UniformRand() - 0.5);
+		phi = angleInRadians * (G4UniformRand() - 0.5);
+		G4ThreeVector photonMomentum(theta, phi, 1.0);
+		fParticleGun->SetParticleMomentumDirection(photonMomentum);
 
 		G4ThreeVector position = G4ThreeVector(x, y, z);
 		// G4ThreeVector position = G4ThreeVector(x, y, z);
@@ -66,7 +75,7 @@ namespace G4_PCM
 		// G4double meanEnergy = 6. * MeV;
 		// G4double stdDev = .127 * MeV;
 		// G4double energy = G4RandGauss::shoot(meanEnergy, stdDev);
-		G4double energy = 70 * keV;
+		G4double energy = 0.01 * keV;
 
 		// fParticleGun->SetParticleEnergy(energy);
 

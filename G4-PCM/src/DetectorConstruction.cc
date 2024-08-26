@@ -20,7 +20,8 @@ namespace G4_PCM
         G4NistManager* nist = G4NistManager::Instance();
 
         // Define el material para el objetivo
-        target = nist->FindOrBuildMaterial("G4_B-100_BONE");
+        target = nist->FindOrBuildMaterial("G4_BONE_COMPACT_ICRU");
+        //target = nist->FindOrBuildMaterial("G4_W");
         vacuum = nist->FindOrBuildMaterial("G4_AIR");
         
         // Configure Lead Tungstate for crystals
@@ -39,7 +40,7 @@ namespace G4_PCM
         auto solidWorld = new G4Box("World",
             worldSize / 2,
             worldSize / 2,
-            worldSize);
+            worldSize * 10);
         auto logicWorld = new G4LogicalVolume(solidWorld,
             vacuum,
             "World");
@@ -53,7 +54,7 @@ namespace G4_PCM
 
         // Crear el objetivo con el grosor especificado
         G4double innerTargetRadius = 0.0;
-        G4double outerTargetRadius = 1.5 * cm;
+        G4double outerTargetRadius = 2.5 * cm;
 
         G4Tubs* solidTarget = new G4Tubs("Target",
             innerTargetRadius,
