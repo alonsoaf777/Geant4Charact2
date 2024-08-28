@@ -6,11 +6,11 @@ namespace G4_PCM {
     int EventAction::fNtupleRegistrationCount = 0;
 
     EventAction::EventAction(RunAction*) {
-        fEnergy = 0. / eV;
+        fEnergy = 0.;
     }
 
     void EventAction::BeginOfEventAction(const G4Event* anEvent) {
-        fEnergy = 0. / eV;
+        fEnergy = 0.;
     }
 
     void EventAction::AddEnergy(G4double e) {
@@ -29,7 +29,7 @@ namespace G4_PCM {
             G4int posZColumnId = 3;
 
             G4AnalysisManager* man = G4AnalysisManager::Instance();
-            man->FillNtupleDColumn(0, energyColumnId, fEnergy / eV);
+            man->FillNtupleDColumn(0, energyColumnId, fEnergy/eV);
             man->FillNtupleDColumn(0, posXColumnId, fPosition.getX());
             man->FillNtupleDColumn(0, posYColumnId, fPosition.getY());
             man->FillNtupleDColumn(0, posZColumnId, fPosition.getZ());

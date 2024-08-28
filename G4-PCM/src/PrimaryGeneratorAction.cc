@@ -44,7 +44,7 @@ namespace G4_PCM
 		// Generar una longitud de onda aleatoria en el rango deseado
 		G4double lambda_min = 400 * nm; // Mínimo en nm (violeta)
 		G4double lambda_max = 700 * nm; // Máximo en nm (rojo)
-		G4double lambda = lambda_min + (lambda_max - lambda_min) * G4UniformRand();
+		G4double lambda = lambda_min + ((lambda_max - lambda_min) * G4UniformRand());
 
 		// Calcular la energía correspondiente
 		G4double energy = h * c / lambda;
@@ -55,7 +55,7 @@ namespace G4_PCM
 		// Generar un número aleatorio para decidir si aceptar o rechazar la energía generada
 		G4double randomProb = G4UniformRand();
 		if (randomProb < prob) {
-			return energy;
+			return energy/eV;
 		}
 		else {
 			return PlanckDistribution(T); // Reintentar si no se acepta
@@ -113,10 +113,10 @@ namespace G4_PCM
 		G4double temperature = 5778 * kelvin;
 
 		// Genera la energía utilizando la distribución de Planck
-		G4double energy = PlanckDistribution(temperature)*eV;
+		G4double energy = PlanckDistribution(temperature);
 
 		// Establece la energía del fotón generado
-		fParticleGun->SetParticleEnergy(energy/eV);
+		fParticleGun->SetParticleEnergy(energy);
 
 
 		// satisfy "generate primaries" here.
