@@ -14,14 +14,58 @@ namespace G4_PCM
         delete fMessenger; // Eliminar el mensajero
     }
     
+    // Define el óxido de vanadio
+    G4Material* DefineVanadiumOxide() {
+        G4NistManager* nist = G4NistManager::Instance();
+        G4double density_V2O5 = 3.36 * g / cm3;
+        G4Material* E_V2O5 = new G4Material("VanadiumOxide", density_V2O5, 2);
+        E_V2O5->AddElement(nist->FindOrBuildElement("V"), 2);
+        E_V2O5->AddElement(nist->FindOrBuildElement("O"), 5);
+        return E_V2O5;
+    }
+
+    // Define el vidrio amorfo
+    G4Material* DefineAmorphousGlass() {
+        G4NistManager* nist = G4NistManager::Instance();
+        G4double density_glass = 2.5 * g / cm3;
+        G4Material* amorphousGlass = new G4Material("AmorphousGlass", density_glass, 2);
+        amorphousGlass->AddElement(nist->FindOrBuildElement("Si"), 1);
+        amorphousGlass->AddElement(nist->FindOrBuildElement("O"), 2);
+        return amorphousGlass;
+    }
+
+    // Define la mezcla de óxido de vanadio y vidrio con proporciones específicas
+    G4Material* DefineVanadiumGlassMix() {
+        G4Material* vanadiumOxide = DefineVanadiumOxide();
+        G4Material* amorphousGlass = DefineAmorphousGlass();
+
+        // Define la densidad de la mezcla (ajústala según sea necesario)
+        G4double density_mix = 2.7 * g / cm3; // Ajusta la densidad según sea necesario
+        G4Material* vanadiumGlassMix = new G4Material("VanadiumGlassMix", density_mix, 2);
+
+        // Proporciones específicas
+        G4double fractionMass_VO2 = 0.05;  // Proporción de óxido de vanadio
+        G4double fractionMass_SiO2 = 1.0 - fractionMass_VO2; // Proporción de vidrio
+
+        vanadiumGlassMix->AddMaterial(vanadiumOxide, fractionMass_VO2);
+        vanadiumGlassMix->AddMaterial(amorphousGlass, fractionMass_SiO2);
+
+        return vanadiumGlassMix;
+    }
+
     void DetectorConstruction::DefineMaterials()
     {
     	// Get nist material manager
         G4NistManager* nist = G4NistManager::Instance();
 
+        //// Configure Vanadium Oxide
+        //E_V2O5 = new G4Material("E_V2O5", 3.36 * g / cm3, 2);
+        //E_V2O5->AddElement(nist->FindOrBuildElement("V"), 2);
+        //E_V2O5->AddElement(nist->FindOrBuildElement("O"), 5);
+
         // Define el material para el objetivo
-        target = nist->FindOrBuildMaterial("G4_BONE_COMPACT_ICRU");
-        //target = nist->FindOrBuildMaterial("G4_W");
+        //target = nist->FindOrBuildMaterial("G4_BONE_COMPACT_ICRU");
+        target = DefineVanadiumGlassMix();
         vacuum = nist->FindOrBuildMaterial("G4_Galactic");
         
         // Configure Lead Tungstate for crystals

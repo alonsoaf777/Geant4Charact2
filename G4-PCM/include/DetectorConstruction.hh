@@ -12,6 +12,7 @@
 #include "G4Tubs.hh"
 #include "G4PVPlacement.hh"
 #include "G4SystemOfUnits.hh"
+#include "G4OpticalSurface.hh"
 
 #include "G4LogicalVolume.hh"
 #include "G4RunManager.hh"
@@ -40,7 +41,7 @@ namespace G4_PCM
         DetectorConstructionMessenger* fMessenger; // Pointer to the messenger
         
         
-        G4Material *target, *vacuum, *E_PbWO4; 
+        G4Material *target, *vacuum, *E_PbWO4; //*E_V2O5
         
         void DefineMaterials();
         
