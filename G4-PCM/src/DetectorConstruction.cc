@@ -85,7 +85,7 @@ namespace G4_PCM
 
         // Crear el detector
         G4double detectorSizeXY = 20 * cm;
-        G4double detectorSizeZ = 5 * cm;
+        G4double detectorSizeZ = 20 * cm; // 5 cm
 
      
         G4Box* solidDetector = new G4Box(
@@ -99,7 +99,7 @@ namespace G4_PCM
             E_PbWO4,
             "Detector");
 
-        G4ThreeVector detectorPos = G4ThreeVector(0, 0, 20 * cm);
+        G4ThreeVector detectorPos = G4ThreeVector(0, 0, 30 * cm); //era 20
         G4RotationMatrix* detRotation = new G4RotationMatrix();
 
         // Colocar el detector
