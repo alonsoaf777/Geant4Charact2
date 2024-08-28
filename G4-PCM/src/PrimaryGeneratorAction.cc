@@ -63,6 +63,7 @@ namespace G4_PCM
 	}
 
 
+
 	void PrimaryGeneratorAction::GeneratePrimaries(G4Event* event)
 	{
 		// Randomize x and y starting point within a 1 mm diameter
@@ -112,10 +113,10 @@ namespace G4_PCM
 		G4double temperature = 5778 * kelvin;
 
 		// Genera la energía utilizando la distribución de Planck
-		G4double energy = PlanckDistribution(temperature);
+		G4double energy = PlanckDistribution(temperature)*eV;
 
 		// Establece la energía del fotón generado
-		fParticleGun->SetParticleEnergy(energy);
+		fParticleGun->SetParticleEnergy(energy/eV);
 
 
 		// satisfy "generate primaries" here.
