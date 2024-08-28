@@ -22,7 +22,7 @@ namespace G4_PCM
         // Define el material para el objetivo
         target = nist->FindOrBuildMaterial("G4_BONE_COMPACT_ICRU");
         //target = nist->FindOrBuildMaterial("G4_W");
-        vacuum = nist->FindOrBuildMaterial("G4_AIR");
+        vacuum = nist->FindOrBuildMaterial("G4_Galactic");
         
         // Configure Lead Tungstate for crystals
         E_PbWO4 = new G4Material("E_PbWO4", 8.28 * g / cm3, 3);
