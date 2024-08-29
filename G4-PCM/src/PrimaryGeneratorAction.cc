@@ -34,16 +34,17 @@ namespace G4_PCM
 
 	}
 
-	// Plack distribution for sunlight
+
+	// Distribución de Planck para la radiación solar
 	G4double PlanckDistribution(G4double T) {
 		// Constantes
 		const G4double h = 4.135667696e-15 * eV * s; // Constante de Planck en eV·s
 		const G4double c = 299792458 * m / s; // Velocidad de la luz en m/s
 		const G4double k_B = 8.617333262e-5 * eV / kelvin; // Constante de Boltzmann en eV/K
 
-		// Generar una longitud de onda aleatoria en el rango deseado
-		G4double lambda_min = 400 * nm; // Mínimo en nm (violeta)
-		G4double lambda_max = 700 * nm; // Máximo en nm (rojo)
+		// Generar una longitud de onda aleatoria en el rango deseado (300 nm a 2500 nm)
+		G4double lambda_min = 300 * nm;
+		G4double lambda_max = 2500 * nm;
 		G4double lambda = lambda_min + ((lambda_max - lambda_min) * G4UniformRand());
 
 		// Calcular la energía correspondiente
@@ -53,9 +54,10 @@ namespace G4_PCM
 		G4double prob = (2 * h * c * c) / (std::pow(lambda, 5) * (std::exp((h * c) / (lambda * k_B * T)) - 1));
 
 		// Generar un número aleatorio para decidir si aceptar o rechazar la energía generada
-		G4double randomProb = G4UniformRand();
+		G4double maxProb = (2 * h * c * c) / (std::pow(lambda_min, 5) * (std::exp((h * c) / (lambda_min * k_B * T)) - 1));
+		G4double randomProb = maxProb * G4UniformRand();
 		if (randomProb < prob) {
-			return energy/eV;
+			return energy;
 		}
 		else {
 			return PlanckDistribution(T); // Reintentar si no se acepta
