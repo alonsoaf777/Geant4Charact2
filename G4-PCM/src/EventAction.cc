@@ -29,7 +29,7 @@ namespace G4_PCM {
             G4int posZColumnId = 3;
 
             G4AnalysisManager* man = G4AnalysisManager::Instance();
-            man->FillNtupleDColumn(0, energyColumnId, fEnergy * 1e6);
+            man->FillNtupleDColumn(0, energyColumnId, fEnergy/eV);
             man->FillNtupleDColumn(0, posXColumnId, fPosition.getX());
             man->FillNtupleDColumn(0, posYColumnId, fPosition.getY());
             man->FillNtupleDColumn(0, posZColumnId, fPosition.getZ());

@@ -17,6 +17,39 @@ namespace G4_PCM
 		// For example, you can set particle type and energy distribution in the macro
 	}
 
+<<<<<<< HEAD
+=======
+	// Plack distribution for sunlight
+	G4double PlanckDistribution(G4double T) {
+		// Constantes
+		const G4double h = 4.135667696e-15 * eV * s; // Constante de Planck en eV·s
+		const G4double c = 299792458 * m / s; // Velocidad de la luz en m/s
+		const G4double k_B = 8.617333262e-5 * eV / kelvin; // Constante de Boltzmann en eV/K
+
+		// Generar una longitud de onda aleatoria en el rango deseado
+		G4double lambda_min = 400 * nm; // Mínimo en nm (violeta)
+		G4double lambda_max = 700 * nm; // Máximo en nm (rojo)
+		G4double lambda = lambda_min + ((lambda_max - lambda_min) * G4UniformRand());
+
+		// Calcular la energía correspondiente
+		G4double energy = h * c / lambda;
+
+		// Calcular la probabilidad según la distribución de Planck
+		G4double prob = (2 * h * c * c) / (std::pow(lambda, 5) * (std::exp((h * c) / (lambda * k_B * T)) - 1));
+
+		// Generar un número aleatorio para decidir si aceptar o rechazar la energía generada
+		G4double randomProb = G4UniformRand();
+		if (randomProb < prob) {
+			return energy/eV;
+		}
+		else {
+			return PlanckDistribution(T); // Reintentar si no se acepta
+		}
+	}
+
+
+
+>>>>>>> parent of 384b1d1 (Plankiana de energias, pero no es correcto.)
 	void PrimaryGeneratorAction::GeneratePrimaries(G4Event* event)
 	{
 		// The direction, energy, and other properties should be set via the macro commands.
