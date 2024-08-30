@@ -10,6 +10,7 @@
 
 namespace G4_PCM
 {
+// AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 	class PrimaryGeneratorMessenger;
 
 	class PrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction
