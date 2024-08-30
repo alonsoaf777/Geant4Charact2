@@ -130,5 +130,45 @@ https://geant4-userdoc.web.cern.ch/UsersGuides/ForApplicationDeveloper/html/Appe
         G4double targetThickness = 13 * mm;
 
 
+# GPS commands
+
+With GPS, every aspect of the source is controlled through the mac files. Here is a quick guide for previus functions the particle gun had.
+
+## Conical Distribution
+
+/gps/ang/type cone
+
+/gps/ang/mintheta 0 deg   # Minimum angle for the cone
+
+/gps/ang/maxtheta 45 deg  # Maximum angle for the cone
+
+/gps/ang/rot1 1 0 0       # Define the rotation axis (optional)
+
+## Random Circular Area Source
+
+/gps/pos/type Plane
+
+/gps/pos/shape Circle
+
+/gps/pos/centre 0 0 -5 cm  # Center of the circular source
+
+/gps/pos/radius 2 cm       # Radius of the circular area
+
+## General configuration
+
+/gps/particle gamma
+
+/gps/energy 1 MeV
+
+/gps/pos/type Point
+
+/gps/pos/centre 0 0 -5 cm
+
+/gps/direction 0 0 1
+
+
+
+It seems my GPos Z source messenger is no longer needed. But I will leave it in the code.
+
 
 01000011 01110101 01101001 01100100 01100001 01100100 01101111 00100000 01100101 01110011 01110101 01100011 00100000 01101110 00100000 01101100 00100000 01110011 01110100 01101100 01110011 00100000 01110100 01110001 01110100 01101101 01100011 00100000 01100101 01100101 00100000 01110101 00100000 01100001 00100000 01110000 01110001 01111001 01101100 00100000 01101000 01110010 00100000 01110000 01110010 00100000 01100101 00100000 01100101 00100000 01101100 00100000 01100111 00100000 01110100 01110101 00100000 01110000 01110101 01100101 01100100 01100101 01110011 
