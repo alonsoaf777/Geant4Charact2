@@ -1,51 +1,33 @@
-#ifndef G4_PCM_DETECTOR_CONSTRUCTION_H
-#define G4_PCM_DETECTOR_CONSTRUCTION_H 1
+#ifndef G4_PCM_PRIMARY_GENERATOR_ACTION_H
+#define G4_PCM_PRIMARY_GENERATOR_ACTION_H 1
 
-#include "G4NistManager.hh"
-#include "G4VUserDetectorConstruction.hh"
+#include "G4VUserPrimaryGeneratorAction.hh"
+#include "G4GeneralParticleSource.hh"
+#include "globals.hh"
 #include "G4SystemOfUnits.hh"
+#include "PrimaryGeneratorMessenger.hh"
 #include "G4UIcmdWithADoubleAndUnit.hh"
-#include "DetectorConstruction.hh"
-#include "DetectorConstructionMessenger.hh"
-#include "G4Material.hh"
-#include "G4Box.hh"
-#include "G4Tubs.hh"
-#include "G4PVPlacement.hh"
-#include "G4SystemOfUnits.hh"
-#include "G4OpticalSurface.hh"
-
-#include "G4LogicalVolume.hh"
-#include "G4RunManager.hh"
 
 namespace G4_PCM
 {
-    class DetectorConstructionMessenger; // Forward declaration
+	class PrimaryGeneratorMessenger;
 
-    class DetectorConstruction : public G4VUserDetectorConstruction
-    {
-    public:
-        DetectorConstruction();
-        ~DetectorConstruction() override;
+	class PrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction
+	{
+	public:
+		PrimaryGeneratorAction();
+		~PrimaryGeneratorAction();
 
-        G4VPhysicalVolume* Construct() override;
+		virtual void GeneratePrimaries(G4Event*);
+		void SetGunZpos(G4double zpos);
 
-        void SetTargetThickness(G4double thickness);
+		G4GeneralParticleSource* fParticleSource;
 
-        G4LogicalVolume* GetGammaDetector() const { return fGammaDetector; }
-
-    private:
-        G4LogicalVolume* fGammaDetector = nullptr;
-        G4double fTargetThickness = 60 * mm; // Valor predeterminado
-
-        G4UIcmdWithADoubleAndUnit* fTargetThicknessCmd;
-        DetectorConstructionMessenger* fMessenger; // Pointer to the messenger
-        
-        
-        G4Material *target, *vacuum, *E_PbWO4; //*E_V2O5
-        
-        void DefineMaterials();
-        
-    };
+	private:
+		G4double fPgun = -5. * cm;
+		G4UIcmdWithADoubleAndUnit* fPgunCmd;
+		PrimaryGeneratorMessenger* fMessenger;
+	};
 }
 
 #endif
