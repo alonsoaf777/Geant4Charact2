@@ -35,33 +35,37 @@ namespace G4_PCM
 	}
 
 
-	// Distribución de Planck para la radiación solar
-	G4double PlanckDistribution(G4double T) {
-		// Constantes
-		const G4double h = 4.135667696e-15 * eV * s; // Constante de Planck en eV·s
-		const G4double c = 299792458 * m / s; // Velocidad de la luz en m/s
-		const G4double k_B = 8.617333262e-5 * eV / kelvin; // Constante de Boltzmann en eV/K
+	// Constantes globales para la distribución de Planck
+	const G4double h = 4.135667696e-15 * eV * s; // Constante de Planck en eV·s
+	const G4double c = 299792458 * m / s;       // Velocidad de la luz en m/s
+	const G4double k_B = 8.617333262e-5 * eV / kelvin; // Constante de Boltzmann en eV/K
+	const G4double lambda_min = 300 * nm;
+	const G4double lambda_max = 2500 * nm;
 
-		// Generar una longitud de onda aleatoria en el rango deseado (300 nm a 2500 nm)
-		G4double lambda_min = 300 * nm;
-		G4double lambda_max = 2500 * nm;
-		G4double lambda = lambda_min + ((lambda_max - lambda_min) * G4UniformRand());
+	// Función que genera una energía aleatoria siguiendo la distribución de Planck para la radiación solar
+	G4double PlanckDistribution(G4double temperature) {
+		// Calcular el factor de normalización para la distribución de Planck
+		const G4double factor = (2 * h * c * c) / (std::pow(lambda_min, 5) * (std::exp((h * c) / (lambda_min * k_B * temperature)) - 1));
 
-		// Calcular la energía correspondiente
-		G4double energy = h * c / lambda;
+		G4double lambda, energy, prob, randomProb;
 
-		// Calcular la probabilidad según la distribución de Planck
-		G4double prob = (2 * h * c * c) / (std::pow(lambda, 5) * (std::exp((h * c) / (lambda * k_B * T)) - 1));
+		do {
+			// Generar una longitud de onda aleatoria en el rango deseado
+			lambda = lambda_min + ((lambda_max - lambda_min) * G4UniformRand());
 
-		// Generar un número aleatorio para decidir si aceptar o rechazar la energía generada
-		G4double maxProb = (2 * h * c * c) / (std::pow(lambda_min, 5) * (std::exp((h * c) / (lambda_min * k_B * T)) - 1));
-		G4double randomProb = maxProb * G4UniformRand();
-		if (randomProb < prob) {
-			return energy;
-		}
-		else {
-			return PlanckDistribution(T); // Reintentar si no se acepta
-		}
+			// Calcular la energía correspondiente a la longitud de onda generada
+			energy = h * c / lambda;
+
+			// Calcular la probabilidad según la distribución de Planck
+			G4double exponent = (h * c) / (lambda * k_B * temperature);
+			prob = (2 * h * c * c) / (std::pow(lambda, 5) * (std::exp(exponent) - 1));
+
+			// Generar un número aleatorio para decidir si aceptar o rechazar la energía generada
+			randomProb = factor * G4UniformRand();
+
+		} while (randomProb >= prob);
+
+		return energy;
 	}
 
 

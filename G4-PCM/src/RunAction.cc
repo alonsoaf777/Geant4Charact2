@@ -9,7 +9,7 @@ namespace G4_PCM {
         auto analysisManager = G4AnalysisManager::Instance();
         analysisManager->SetDefaultFileType("root");
         analysisManager->SetNtupleMerging(true);
-        analysisManager->SetVerboseLevel(0);
+        analysisManager->SetVerboseLevel(2);
         analysisManager->CreateNtuple("G4_PCM", "Hits");
         analysisManager->CreateNtupleDColumn("Energy");//   id = 0
         analysisManager->CreateNtupleDColumn("PositionX"); //id = 1
