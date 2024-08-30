@@ -13,8 +13,6 @@ namespace G4_PCM
 {
 
 	PrimaryGeneratorAction::PrimaryGeneratorAction()
-		: fPgun(-5 * cm), // Valor predeterminado
-		fMessenger(new PrimaryGeneratorMessenger(this)) // Crear el mensajero
 	{
 		// set up particle gun
 		G4int nParticles = 1;
@@ -72,7 +70,7 @@ namespace G4_PCM
 		G4double radius = 2 * cm; // hay que cambiarlo .5*mm por defecto
 		
 		// generate random x and y positions within that radius
-		double x, y, z = fPgun; // Aquí estableces z en -5 cm
+		double x, y, z = -5 * cm; // Aquí estableces z en -5 cm
 
 		// to avoid using slow methods like sin and cos,
 		// we generate random values in a cube and regect the ones
@@ -127,21 +125,5 @@ namespace G4_PCM
 
 	PrimaryGeneratorAction::~PrimaryGeneratorAction() {
 		delete fParticleGun;
-		delete fMessenger; // Eliminar el mensajero
-	}
-
-	void PrimaryGeneratorAction::SetGunZpos(G4double zpos)
-	{
-		G4cout << "Setting source position to: " << zpos << G4endl;
-		if (zpos != fPgun) {
-			fPgun = zpos;
-			G4cout << "Source Position changed to: " << fPgun << G4endl;
-
-			// Forzar la actualización de la geometría
-			//G4RunManager::GetRunManager()->ReinitializeGeometry();
-		}
-		else {
-			G4cout << "Source Position Changed." << G4endl;
-		}
 	}
 }
