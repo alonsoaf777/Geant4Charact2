@@ -1,0 +1,7 @@
+/Users/Daniel/Documents/ITESM/Séptimo Semestre/Proyecto Geant4/geant4-v11.2.2/Estancia/G4-PCM/out/build/unix-base/CMakeFiles/PCM.dir
+/Users/Daniel/Documents/ITESM/Séptimo Semestre/Proyecto Geant4/geant4-v11.2.2/Estancia/G4-PCM/out/build/unix-base/CMakeFiles/edit_cache.dir
+/Users/Daniel/Documents/ITESM/Séptimo Semestre/Proyecto Geant4/geant4-v11.2.2/Estancia/G4-PCM/out/build/unix-base/CMakeFiles/rebuild_cache.dir
+/Users/Daniel/Documents/ITESM/Séptimo Semestre/Proyecto Geant4/geant4-v11.2.2/Estancia/G4-PCM/out/build/unix-base/CMakeFiles/list_install_components.dir
+/Users/Daniel/Documents/ITESM/Séptimo Semestre/Proyecto Geant4/geant4-v11.2.2/Estancia/G4-PCM/out/build/unix-base/CMakeFiles/install.dir
+/Users/Daniel/Documents/ITESM/Séptimo Semestre/Proyecto Geant4/geant4-v11.2.2/Estancia/G4-PCM/out/build/unix-base/CMakeFiles/install/local.dir
+/Users/Daniel/Documents/ITESM/Séptimo Semestre/Proyecto Geant4/geant4-v11.2.2/Estancia/G4-PCM/out/build/unix-base/CMakeFiles/install/strip.dir

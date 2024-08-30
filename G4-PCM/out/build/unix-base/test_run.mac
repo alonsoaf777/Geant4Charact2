@@ -1,0 +1,7 @@
+# a simple test run
+/run/initialize
+
+/det/t 20 nm
+/run/reinitializeGeometry
+
+/run/beamOn 10000000
