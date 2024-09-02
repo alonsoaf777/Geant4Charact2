@@ -1,6 +1,10 @@
 # a simple test run
 /run/initialize
 
+/det/t 10 nm
+/run/reinitializeGeometry 
+
+
 /gps/particle gamma
 /gps/ene/type Bbody
 # /gps/ene/temp 5778 K # Sol

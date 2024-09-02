@@ -44,7 +44,7 @@ namespace G4_PCM
         G4Material* vanadiumGlassMix = new G4Material("VanadiumGlassMix", density_mix, 2);
 
         // Proporciones específicas
-        G4double fractionMass_VO2 = 0.05;  // Proporción de óxido de vanadio
+        G4double fractionMass_VO2 = 0.50;  // Proporción de óxido de vanadio
         G4double fractionMass_SiO2 = 1.0 - fractionMass_VO2; // Proporción de vidrio
 
         vanadiumGlassMix->AddMaterial(vanadiumOxide, fractionMass_VO2);
@@ -96,31 +96,31 @@ namespace G4_PCM
             false,
             0);
 
-        // Crear el objetivo con el grosor especificado
-        G4double innerTargetRadius = 0.0;
-        G4double outerTargetRadius = 2.5 * cm;
+        //// Crear el objetivo con el grosor especificado
+        //G4double innerTargetRadius = 0.0;
+        //G4double outerTargetRadius = 2.5 * cm;
 
-        G4Tubs* solidTarget = new G4Tubs("Target",
-            innerTargetRadius,
-            outerTargetRadius,
-            fTargetThickness / 2.0,
-            0.0,
-            360.0 * deg);
+        //G4Tubs* solidTarget = new G4Tubs("Target",
+        //    innerTargetRadius,
+        //    outerTargetRadius,
+        //    fTargetThickness / 2.0,
+        //    0.0,
+        //    360.0 * deg);
 
-        G4LogicalVolume* logicTarget = new G4LogicalVolume(solidTarget,
-            target,
-            "Target");
+        //G4LogicalVolume* logicTarget = new G4LogicalVolume(solidTarget,
+        //    target,
+        //    "Target");
 
-        // Posicionar el objetivo en el mundo
-        G4ThreeVector targetPos = G4ThreeVector(); // 0,0,0
-        G4RotationMatrix* targetRotation = new G4RotationMatrix();
-        new G4PVPlacement(targetRotation,
-            targetPos,
-            logicTarget,
-            "Target",
-            logicWorld,
-            false,
-            0);
+        //// Posicionar el objetivo en el mundo
+        //G4ThreeVector targetPos = G4ThreeVector(); // 0,0,0
+        //G4RotationMatrix* targetRotation = new G4RotationMatrix();
+        //new G4PVPlacement(targetRotation,
+        //    targetPos,
+        //    logicTarget,
+        //    "Target",
+        //    logicWorld,
+        //    false,
+        //    0);
 
         // Crear el detector
         G4double detectorSizeXY = 20 * cm;
