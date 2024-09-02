@@ -12,9 +12,18 @@ namespace G4_PCM
     	// Single Bone / OsBone
     	isArm = false; 
     	isBone = true; 
-    	isOsBone = true; 
+    	isOsBone = false; 
+    	isFiltered = true; // Create a wall that just let the circle  
     	outerBoneRadius = 1.5 * cm;
     	targetRotation = new G4RotationMatrix(0, 0, 0); // 0, 90 * deg, 0
+    	
+    	//Detector SIze
+        detectorSizeXY = 20 * cm;
+        detectorSizeZ = 5 * cm;
+        
+        // Filter parameters
+        filterThick = 1.0*cm / 2; 
+        	
     }
 
     DetectorConstruction::~DetectorConstruction()
@@ -59,6 +68,9 @@ namespace G4_PCM
         OsBone -> AddMaterial(P, 7*perCent); 
         OsBone -> AddMaterial(S, 0.2*perCent); 
         OsBone -> AddMaterial(Ca, 14.7*perCent); 
+        
+        //Configure mats for W filter
+        W = nist->FindOrBuildMaterial("G4_W"); 
         
     }
      // -----------------------------------------------------------------------
@@ -156,7 +168,13 @@ namespace G4_PCM
 	// G4double outerBoneRadius = 1.5 * cm;
 	
 	// Tubs
-	solidBone = new G4Tubs("Bone", innerBoneRadius, outerBoneRadius, fTargetThickness / 2.0, 0.0, 360.0 * deg); 
+	solidBone = new G4Tubs("Bone", innerBoneRadius, outerBoneRadius, fTargetThickness / 2.0, 0.0, 360.0 * deg);
+	
+	//FIlter wall
+	if(isFiltered)
+	{
+		ConstructFilter(); 
+	}	 
 	// ------------------ OSBONE --------------------------
 	if(isOsBone) //Bone with osteoporos
 	{
@@ -168,6 +186,21 @@ namespace G4_PCM
 		physBone = new G4PVPlacement(targetRotation, targetPos, logicBone, "physBone", logicWorld, false, 0, true); 
 	
 	}
+    }
+    
+    // -----------------------------------------------------------------------------------------
+    // ------------------------------------------ FILTER WALL -----------------------------------
+    
+    void DetectorConstruction::ConstructFilter()
+    {
+    	filterPos = G4ThreeVector(0, 0, -fTargetThickness / 2 - filterThick); 
+    	solidFilter = new G4Box("solidFilter", detectorSizeXY, detectorSizeXY, filterThick); 
+    	// Restar el cilindro (brazo) de la pared
+	G4SubtractionSolid* filterWithHole = new G4SubtractionSolid("FilterWithHole", solidFilter, solidBone, 0, targetPos);
+	logicFilter = new G4LogicalVolume(filterWithHole, W, "LogicFilter"); 
+	physFilter = new G4PVPlacement(0, filterPos, logicFilter, "physFilter", logicWorld,false, 0, true); 
+    	
+    	
     }
 // -----------------------------------------------------------------------
 // -----------------------------------------------------------------------
@@ -206,13 +239,7 @@ namespace G4_PCM
      	{
      		ConstructBone(); 
      	}
-        
-
-        // Crear el detector
-        G4double detectorSizeXY = 20 * cm;
-        G4double detectorSizeZ = 5 * cm;
-
-     
+     	
         G4Box* solidDetector = new G4Box(
             "Detector",
             detectorSizeXY,
