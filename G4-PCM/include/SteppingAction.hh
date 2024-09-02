@@ -17,8 +17,9 @@ namespace G4_PCM {
 		void UserSteppingAction(const G4Step*) override;
 
 	private:
-		G4LogicalVolume* fGammaDetector = nullptr;
-
+		// G4LogicalVolume* fGammaDetector = nullptr;
+		G4LogicalVolume* fOpticalPhotonDetector = nullptr;
+		
 		EventAction* feventAction;
 
 	};

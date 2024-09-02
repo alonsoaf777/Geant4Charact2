@@ -2,6 +2,8 @@
 #define G4_PCM_PHYSICS_LIST_H 1
 
 #include "G4VModularPhysicsList.hh"
+#include "G4EmStandardPhysics.hh"
+#include "G4OpticalPhysics.hh"
 
 namespace G4_PCM
 {

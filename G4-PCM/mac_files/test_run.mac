@@ -5,7 +5,9 @@
 /run/reinitializeGeometry 
 
 
-/gps/particle gamma
+# /gps/particle gamma
+/gps/particle opticalphoton
+
 /gps/ene/type Bbody
 # /gps/ene/temp 5778 K # Sol
 /gps/ene/temp 5100 K   # Sol en Tierra

@@ -12,7 +12,7 @@ namespace G4_PCM
         fParticleSource = new G4GeneralParticleSource();
 
         // Configuración inicial de la fuente de partículas
-        fParticleSource->SetParticleDefinition(G4ParticleTable::GetParticleTable()->FindParticle("gamma"));
+        fParticleSource->SetParticleDefinition(G4ParticleTable::GetParticleTable()->FindParticle("opticalphoton"));
     }
 
     PrimaryGeneratorAction::~PrimaryGeneratorAction()

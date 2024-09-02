@@ -8,6 +8,7 @@ namespace G4_PCM
 		// Get the standard EM particles
 		RegisterPhysics(new G4EmStandardPhysics());
 		RegisterPhysics(new G4OpticalPhysics());
+	
 	}
 	PhysicsList::~PhysicsList() {}
 
