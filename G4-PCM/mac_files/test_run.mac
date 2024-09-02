@@ -3,9 +3,10 @@
 
 /gps/particle gamma
 /gps/ene/type Bbody
-/gps/ene/temp 5778 K
-/gps/ene/min 1.77 eV  # Energía mínima correspondiente a 700 nm
-/gps/ene/max 3.10 eV  # Energía máxima correspondiente a 400 nm
+# /gps/ene/temp 5778 K # Sol
+/gps/ene/temp 5100 K   # Sol en Tierra
+/gps/ene/min 0.496 eV  # Energía mínima correspondiente a 2500 nm
+/gps/ene/max 12.4 eV   # Energía máxima correspondiente a 100 nm
 /gps/pos/type Plane
 /gps/pos/shape Circle
 /gps/pos/radius 2.5 cm
