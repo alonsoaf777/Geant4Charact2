@@ -5,16 +5,16 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Configuración
-sim_dir = "/home/alosnamon/GeantRadio/Geant4Charact2-h4xter_lite/Radio/build"
+sim_dir = "C:\\Users\\conej\\Documents\\Universidad\\Geant4\\Projects\\Git\\build\\Release"
 # Carpeta actual desde donde se ejecuta el script
 output_folder = os.getcwd()
-exec_file = "PCM"
+exec_file = "PCM.exe"
 mac_name = "angle.mac"
 mac_template = """\
 /run/initialize
 /gun/energy {energy} keV
 /Pgun/Angle {angle}
-/run/beamOn 1000000
+/run/beamOn 10000000
 """
 
 # Función para crear y guardar el archivo .mac
@@ -27,7 +27,7 @@ def create_mac_file(energy, angle, mac_name):
 
 # run_simulation
 def run_Sim(executable_file, mac_filename, directory):
-	run_sim = f"./{executable_file} {mac_filename} . ."
+	run_sim = f".\{executable_file} {mac_filename}"
 	try:
         	subprocess.run(run_sim, cwd=directory, check=True, shell=True)
 	except subprocess.CalledProcessError as e: 
@@ -53,8 +53,9 @@ for i in range(0, 90, 10):
 				# Extraer las ramas Energy, PositionX, PositionY, PositionZ
 				data = ntuple.arrays(["Energy", "PositionX", "PositionY"], library="pd")
 				# Convertir a DataFrame de pandas
-				df = df.round(4)
+
 				df = pd.DataFrame(data)
+				df = df.round(4)
 				# Redondear a 4 decimales
 
 				# Nombre del archivo de salida .csv
