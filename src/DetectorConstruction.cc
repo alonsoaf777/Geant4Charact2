@@ -10,12 +10,12 @@ namespace G4_PCM
     	
     	// Arm with Bone / OsBone 
     	// Single Bone / OsBone
-    	isArm = false; 
-    	isBone = true; 
-    	isOsBone = false; 
-    	isFiltered = true; // Create a wall that just let the circle  
+    	isArm = true; 
+    	isBone = false; 
+    	isOsBone = true; 
+    	isFiltered = false; // Create a wall that just let the circle  
     	outerBoneRadius = 1.5 * cm;
-    	targetRotation = new G4RotationMatrix(0, 0, 0); // 0, 90 * deg, 0
+    	targetRotation = new G4RotationMatrix(0, 90*deg, 0); // 0, 90 * deg, 0
     	
     	//Detector SIze
         detectorSizeXY = 20 * cm;
