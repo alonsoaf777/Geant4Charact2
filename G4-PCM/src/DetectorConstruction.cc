@@ -84,7 +84,7 @@ namespace G4_PCM
         auto solidWorld = new G4Box("World",
             worldSize / 2,
             worldSize / 2,
-            worldSize * 10);
+            worldSize * 2);
         auto logicWorld = new G4LogicalVolume(solidWorld,
             vacuum,
             "World");
@@ -96,31 +96,31 @@ namespace G4_PCM
             false,
             0);
 
-        //// Crear el objetivo con el grosor especificado
-        //G4double innerTargetRadius = 0.0;
-        //G4double outerTargetRadius = 2.5 * cm;
+        // Crear el objetivo con el grosor especificado
+        G4double innerTargetRadius = 0.0;
+        G4double outerTargetRadius = 2.5 * cm;
 
-        //G4Tubs* solidTarget = new G4Tubs("Target",
-        //    innerTargetRadius,
-        //    outerTargetRadius,
-        //    fTargetThickness / 2.0,
-        //    0.0,
-        //    360.0 * deg);
+        G4Tubs* solidTarget = new G4Tubs("Target",
+            innerTargetRadius,
+            outerTargetRadius,
+            fTargetThickness / 2.0,
+            0.0,
+            360.0 * deg);
 
-        //G4LogicalVolume* logicTarget = new G4LogicalVolume(solidTarget,
-        //    target,
-        //    "Target");
+        G4LogicalVolume* logicTarget = new G4LogicalVolume(solidTarget,
+            target,
+            "Target");
 
-        //// Posicionar el objetivo en el mundo
-        //G4ThreeVector targetPos = G4ThreeVector(); // 0,0,0
-        //G4RotationMatrix* targetRotation = new G4RotationMatrix();
-        //new G4PVPlacement(targetRotation,
-        //    targetPos,
-        //    logicTarget,
-        //    "Target",
-        //    logicWorld,
-        //    false,
-        //    0);
+        // Posicionar el objetivo en el mundo
+        G4ThreeVector targetPos = G4ThreeVector(); // 0,0,0
+        G4RotationMatrix* targetRotation = new G4RotationMatrix();
+        new G4PVPlacement(targetRotation,
+            targetPos,
+            logicTarget,
+            "Target",
+            logicWorld,
+            false,
+            0);
 
         // Crear el detector
         G4double detectorSizeXY = 20 * cm;
