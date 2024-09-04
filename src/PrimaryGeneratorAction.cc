@@ -12,7 +12,7 @@ namespace G4_PCM
 {
 
 	PrimaryGeneratorAction::PrimaryGeneratorAction()
-		: fPgun(-50 * cm), fGunAngle(0), // Valor predeterminado
+		: fPgun(-50 * cm), fGunAngle(20), // Valor predeterminado
 		fMessenger(new PrimaryGeneratorMessenger(this)) // Crear el mensajero
 	{
 		// set up particle gun
@@ -39,7 +39,7 @@ namespace G4_PCM
 		if(fGunAngle == 0)
 		{	
 			// Randomize x and y starting point within a 1 mm diameter
-			radius = 7 * cm; // hay que cambiarlo .5*mm por defecto
+			radius = 50 * mm; // hay que cambiarlo .5*mm por defecto
 		}
 		else
 		{

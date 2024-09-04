@@ -33,9 +33,11 @@ namespace G4_PCM
 
         void SetTargetThickness(G4double thickness);
         void ConstructArm(); 
-	void ConstructBone(); 
+	void ConstructSingleBone(); 
 	void ConstructOsBone();
 	void ConstructFilter();
+	void ConstructRealBone(); 
+	void ConstructNormalBone(); 
 	
         G4LogicalVolume* GetGammaDetector() const { return fGammaDetector; }
 
@@ -47,16 +49,16 @@ namespace G4_PCM
         DetectorConstructionMessenger* fMessenger; // Pointer to the messenger
         
         G4Box *solidWorld, *solidFilter; 
-        G4LogicalVolume *logicBone, *logicMuscle, *logicGrasa, *logicSkin, *logicWorld, *logicFilter; 
-        G4VPhysicalVolume *physBone, *physMuscle, *physGrasa, *physSkin, *physWorld, *physFilter; 
-        G4Material *bone, *vacuum, *E_PbWO4, *skin, *grasa, *muscle, *OsBone, *H, *C, *N, *O, *Mg, *P, *S, *Ca, *W; 
-        G4Tubs *solidBone, *solidMuscle, *solidGrasa, *solidSkin; 
-        G4bool isArm, isBone, isOsBone, isFiltered;  
+        G4LogicalVolume *logicBone, *logicMuscle, *logicGrasa, *logicSkin, *logicWorld, *logicFilter, *logicTrabecular, *logicCortical; 
+        G4VPhysicalVolume *physBone, *physMuscle, *physGrasa, *physSkin, *physWorld, *physFilter, *physTrabecular, *physCortical; 
+        G4Material *bone, *vacuum, *E_PbWO4, *skin, *grasa, *muscle, *OsBone, *H, *C, *N, *O, *Mg, *P, *S, *Ca, *W, *F, *trabecularBone, *RealOsBone; 
+        G4Tubs *solidBone, *solidMuscle, *solidGrasa, *solidSkin, *solidTrabecular, *solidCortical; 
+        G4bool isArm, isSingleBone, isOsBone, isFiltered, isRealisticBone, isNormalBone;  
         G4ThreeVector targetPos, filterPos; 
         G4RotationMatrix *targetRotation; 
         G4Sphere *pore;  
         G4VSolid *porousBone; 
-        G4double outerBoneRadius, detectorSizeXY, detectorSizeZ, filterThick; 
+        G4double outerBoneRadius, detectorSizeXY, detectorSizeZ, filterThick, innerBoneRadius, r; 
         
         void DefineMaterials();
         
