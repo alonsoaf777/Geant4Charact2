@@ -1,0 +1,17 @@
+# a simple test run
+/run/initialize
+
+# /det/t 10 nm
+# /run/reinitializeGeometry 
+
+
+/gps/particle opticalphoton
+/gps/ene/mono 100 eV
+/gps/pos/type Plane
+/gps/pos/shape Circle
+/gps/pos/radius 1 cm
+/gps/pos/centre 0 0 -10 cm  # Centro del círculo en (0, 0, -5 cm)
+/gps/direction 0 0 1        # Dirección de las partículas a lo largo del eje Z
+/gps/ene/calculate
+/run/beamOn 3000
+

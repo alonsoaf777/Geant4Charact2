@@ -1,61 +1,36 @@
 #include "EventAction.hh"
+#include "G4Event.hh"
+#include "G4HCofThisEvent.hh"
+#include "G4SDManager.hh"
 #include "G4AnalysisManager.hh"
 
-namespace G4_PCM {
-    // Initialize static member
-    int EventAction::fNtupleRegistrationCount = 0;
+EventAction::EventAction() {}
 
-    EventAction::EventAction(RunAction*) {
-        fEnergy = 0.;
+void EventAction::EndOfEventAction(const G4Event* event) {
+    // Obtener la colección de hits
+    G4HCofThisEvent* HCE = event->GetHCofThisEvent();
+    if (!HCE) return;
+
+    G4int HCID = GetHitsCollectionID("MyHitsCollection");
+    auto hitsCollection = static_cast<MyHitsCollection*>(HCE->GetHC(HCID));
+
+    // Si no hay hits, no procesamos
+    if (!hitsCollection) return;
+
+    G4double totalEnergy = 0.0;
+    for (size_t i = 0; i < hitsCollection->entries(); ++i) {
+        MyHit* hit = (*hitsCollection)[i];
+        totalEnergy += hit->GetEnergy();
+
+        // Aquí puedes procesar los hits individualmente o guardar sus posiciones
     }
 
-    void EventAction::BeginOfEventAction(const G4Event* anEvent) {
-        fEnergy = 0.;
-    }
+    // Guardar la energía total en el ntuple
+    G4AnalysisManager* analysisManager = G4AnalysisManager::Instance();
+    analysisManager->FillNtupleDColumn(0, totalEnergy * 1e6);  // Guardar en microjoules
+    analysisManager->AddNtupleRow();
+}
 
-    void EventAction::AddEnergy(G4double e) {
-        fEnergy += e;
-    }
-
-    void EventAction::SetPosition(G4ThreeVector p) {
-        fPosition = p;
-    }
-
-    void EventAction::EndOfEventAction(const G4Event* anEvent) {
-        if (fEnergy > 0.0) {
-            G4int energyColumnId = 0;
-            G4int posXColumnId = 1;
-            G4int posYColumnId = 2;
-            G4int posZColumnId = 3;
-
-            G4AnalysisManager* man = G4AnalysisManager::Instance();
-            man->FillNtupleDColumn(0, energyColumnId, fEnergy * 1e6);
-            man->FillNtupleDColumn(0, posXColumnId, fPosition.getX());
-            man->FillNtupleDColumn(0, posYColumnId, fPosition.getY());
-            man->FillNtupleDColumn(0, posZColumnId, fPosition.getZ());
-            man->AddNtupleRow(0);
-
-            // Increment the registration count
-            ++fNtupleRegistrationCount;
-        }
-    }
-
-    void EventAction::Print() {
-        G4cout
-            << "Energy: "
-            << G4BestUnit(fEnergy, "Energy")
-			<< "Position: "
-			<< G4BestUnit(fPosition.getX(), "Length")
-			<< G4BestUnit(fPosition.getY(), "Length")
-			<< G4BestUnit(fPosition.getZ(), "Length")
-            << G4endl;
-    }
-
-    int EventAction::GetNtupleRegistrationCount() {
-        return fNtupleRegistrationCount;
-    }
-
-    void EventAction::ResetNtupleRegistrationCount() {
-        fNtupleRegistrationCount = 0;
-    }
+G4int EventAction::GetHitsCollectionID(const G4String& colName) const {
+    return G4SDManager::GetSDMpointer()->GetCollectionID(colName);
 }

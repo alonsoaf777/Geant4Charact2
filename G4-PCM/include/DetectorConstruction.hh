@@ -5,17 +5,15 @@
 #include "G4VUserDetectorConstruction.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4UIcmdWithADoubleAndUnit.hh"
-#include "DetectorConstruction.hh"
 #include "DetectorConstructionMessenger.hh"
 #include "G4Material.hh"
 #include "G4Box.hh"
-#include "G4Tubs.hh"
+#include "G4LogicalVolume.hh"
 #include "G4PVPlacement.hh"
-#include "G4SystemOfUnits.hh"
 #include "G4OpticalSurface.hh"
 
-#include "G4LogicalVolume.hh"
-#include "G4RunManager.hh"
+// Forward declaration of the sensitive detector class
+class MySensitiveDetector;
 
 namespace G4_PCM
 {
@@ -38,13 +36,23 @@ namespace G4_PCM
         G4double fTargetThickness = 60 * mm; // Valor predeterminado
 
         G4UIcmdWithADoubleAndUnit* fTargetThicknessCmd;
-        DetectorConstructionMessenger* fMessenger; // Pointer to the messenger
-        
-        
-        G4Material *target, *vacuum, *E_PbWO4; //*E_V2O5
-        
+        DetectorConstructionMessenger* fMessenger; // Puntero al mensajero
+
+        G4Material* target;
+        G4Material* vacuum;
+        G4Material* E_PbWO4;
+        G4Material* DefineVanadiumOxide();
+        G4Material* DefineAmorphousGlass();
+        G4Material* DefineVanadiumGlassMix();
+
+        // Método para definir materiales
         void DefineMaterials();
-        
+
+        // Método para construir el detector sensible y definir barreras
+        void ConstructSDandField();
+
+        // Puntero a la clase del detector sensible
+        MySensitiveDetector* fSensitiveDetector;
     };
 }
 
