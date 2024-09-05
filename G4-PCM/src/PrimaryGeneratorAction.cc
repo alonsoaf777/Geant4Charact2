@@ -3,6 +3,7 @@
 #include "G4ParticleTable.hh"
 #include "G4ParticleDefinition.hh"
 #include "G4SystemOfUnits.hh"
+#include "G4UImanager.hh"
 
 namespace G4_PCM
 {
@@ -12,7 +13,11 @@ namespace G4_PCM
         fParticleSource = new G4GeneralParticleSource();
 
         // Configuración inicial de la fuente de partículas
-        fParticleSource->SetParticleDefinition(G4ParticleTable::GetParticleTable()->FindParticle("gamma"));
+        fParticleSource->SetParticleDefinition(G4ParticleTable::GetParticleTable()->FindParticle("opticalphoton"));
+
+        //// Configura la dirección de los fotones ópticos
+        //G4UImanager* UI = G4UImanager::GetUIpointer();
+        //UI->ApplyCommand("/gps/direction 0 0 1)");
     }
 
     PrimaryGeneratorAction::~PrimaryGeneratorAction()

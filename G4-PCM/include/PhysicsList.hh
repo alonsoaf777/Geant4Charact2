@@ -5,16 +5,16 @@
 
 namespace G4_PCM
 {
-	class PhysicsList : public G4VModularPhysicsList
-	{
-	public:
-		PhysicsList();
-		virtual ~PhysicsList();
+    class PhysicsList : public G4VModularPhysicsList
+    {
+    public:
+        PhysicsList();
+        virtual ~PhysicsList();
 
-		// Mandatory methods to override;
-		virtual void ConstructParticle() override;
-		virtual void ConstructProcess() override;
-	};
+        // Mandatory methods to override
+        virtual void ConstructParticle() override;
+        virtual void ConstructProcess() override;
+    };
 }
 
 #endif

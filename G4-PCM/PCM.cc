@@ -37,7 +37,7 @@ int main(int argc, char** argv)
 
     // set 3 required initialization classes
     runManager->SetUserInitialization(new DetectorConstruction());
-    runManager->SetUserInitialization(new PhysicsList());
+    runManager->SetUserInitialization(new PhysicsList()); // Ensure PhysicsList is updated
     runManager->SetUserInitialization(new ActionInit());
 
     // ======================================================================

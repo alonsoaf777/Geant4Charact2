@@ -5,17 +5,16 @@
 #include "G4VUserDetectorConstruction.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4UIcmdWithADoubleAndUnit.hh"
-#include "DetectorConstruction.hh"
-#include "DetectorConstructionMessenger.hh"
 #include "G4Material.hh"
 #include "G4Box.hh"
 #include "G4Tubs.hh"
 #include "G4PVPlacement.hh"
-#include "G4SystemOfUnits.hh"
 #include "G4OpticalSurface.hh"
-
 #include "G4LogicalVolume.hh"
 #include "G4RunManager.hh"
+#include "DetectorConstructionMessenger.hh"
+#include "G4LogicalBorderSurface.hh"
+
 
 namespace G4_PCM
 {
@@ -39,13 +38,15 @@ namespace G4_PCM
 
         G4UIcmdWithADoubleAndUnit* fTargetThicknessCmd;
         DetectorConstructionMessenger* fMessenger; // Pointer to the messenger
-        
-        
-        G4Material *target, *vacuum, *E_PbWO4; //*E_V2O5
-        
+
+        G4Material* target, * vacuum, * E_PbWO4, * detector; //*E_V2O5
+
         void DefineMaterials();
-        
+        void DefineOpticalProperties();
+
+        G4LogicalVolume* fWorldLog = nullptr;  // Añadido
+        G4LogicalVolume* fDetectorLog = nullptr; // Añadido
     };
 }
 
-#endif
+#endif // G4_PCM_DETECTOR_CONSTRUCTION_H
