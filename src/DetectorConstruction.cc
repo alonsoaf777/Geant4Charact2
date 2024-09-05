@@ -30,7 +30,7 @@ namespace G4_PCM
     	}
     	innerBoneRadius = 0.0;
     	
-    	targetRotation = new G4RotationMatrix(0, 0, 0); // 0, 90 * deg, 0
+    	targetRotation = new G4RotationMatrix(0, 90 * deg, 0); // 0, 90 * deg, 0
     	
     	//Detector SIze
         detectorSizeXY = 20 * cm;
@@ -113,10 +113,10 @@ namespace G4_PCM
 	G4double startTheta = 0.*deg;
 	G4double deltaTheta = 180.*deg;  // Esfera completa
 		// Define los poros como esferas pequeñas
-	G4double poreRadius = 1000*um; //Ideal 100um
+	G4double poreRadius = 100*um; //Ideal 100um
 	pore = new G4Sphere("Pore", 0, poreRadius, startPhi, deltaPhi, startTheta, 	deltaTheta);
 		// Número de poros que deseas simular
-	int numPores = 100; //Quantity 300
+	int numPores = 300; //Quantity 300
 		//Solido
 	
 	if (isNormalBone)
