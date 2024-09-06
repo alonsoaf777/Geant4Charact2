@@ -30,10 +30,12 @@ namespace G4_PCM
 
         void SetTargetThickness(G4double thickness);
 
-        G4LogicalVolume* GetGammaDetector() const { return fGammaDetector; }
+        G4LogicalVolume* GetOpticalPhotonDetector() const { return fGammaDetector; }
 
     private:
         G4LogicalVolume* fGammaDetector = nullptr;
+        G4LogicalVolume* fWorldLog = nullptr;  // Añadido
+        G4LogicalVolume* fDetectorLog = nullptr; // Añadido
         G4double fTargetThickness = 60 * mm; // Valor predeterminado
 
         G4UIcmdWithADoubleAndUnit* fTargetThicknessCmd;
@@ -44,8 +46,7 @@ namespace G4_PCM
         void DefineMaterials();
         void DefineOpticalProperties();
 
-        G4LogicalVolume* fWorldLog = nullptr;  // Añadido
-        G4LogicalVolume* fDetectorLog = nullptr; // Añadido
+
     };
 }
 

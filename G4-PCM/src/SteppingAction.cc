@@ -20,7 +20,7 @@ namespace G4_PCM {
 		const auto *detConstruction = static_cast<const DetectorConstruction*>(
 			G4RunManager::GetRunManager()->GetUserDetectorConstruction()
 			);
-		fGammaDetector = detConstruction->GetGammaDetector();
+		fGammaDetector = detConstruction->GetOpticalPhotonDetector();
 
 		// Register hit if the step is inside the tracking volume
 		
