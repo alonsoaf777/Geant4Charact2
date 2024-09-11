@@ -59,37 +59,59 @@ namespace G4_PCM
     {
         const G4int numEntries = 12;
         G4double photonEnergy[numEntries] = {
-            0.496 * eV, 0.7 * eV, 1.0 * eV, 1.55 * eV,
-            2.0 * eV, 3.0 * eV, 4.0 * eV, 5.0 * eV,
-            6.0 * eV, 8.0 * eV, 10.0 * eV, 12.4 * eV
+            0.496 * eV, 0.7 * eV, 1.0 * eV, 1.55 * eV, 2.0 * eV, 2.5 * eV,
+            3.0 * eV, 3.5 * eV, 4.0 * eV, 5.0 * eV, 10.0 * eV, 12.4 * eV
         };
 
-        // Índice de refracción para el vidrio de sílice
-        G4double refractiveIndex[numEntries] = {
-        //    1.4, 1.45, 1.5, 1.55, 1.6, 1.65, 1.7, 1.75, 1.8, 1.85, 1.9, 1.95
-            1.4, 1.45, 1.5, 1.55, 1.6, 1.65, 1.7, 1.75, 1.8, 1.85, 1.9, 1.95
+        // Índice de refracción del vidrio de sílice
+        G4double refractiveIndexGlass[numEntries] = {
+            1.4, 1.45, 1.5, 1.55, 1.6, 1.65,
+            1.7, 1.75, 1.8, 1.85, 1.9, 1.95
         };
 
-        // Longitudes de absorción ajustadas
-        G4double absorptionLength[numEntries] = {
-            10 * cm, 10 * cm, 10 * cm, 10 * cm, 10 * cm,
-            10 * cm, 10 * cm, 10 * cm, 10 * cm, 10 * cm, 10 * cm, 10 * cm
+        // Absorción del vidrio de sílice (UV e IR absorbidos, visible transmitido)
+        G4double absorptionLengthGlass[numEntries] = {
+            0.01 * cm, 0.01 * cm, // Infrarrojo absorbido (<1.55 eV)
+            100 * cm, 100 * cm, 100 * cm, // Visible transmitido (1.55 eV - 3.1 eV)
+            100 * cm, 100 * cm, // Visible transmitido
+            0.01 * cm, 0.01 * cm, 0.01 * cm, 0.01 * cm // Ultravioleta absorbido (>3.1 eV)
         };
 
-        // Reflexión especular y difusa (superficie no ideal)
-        G4double reflectivity[numEntries] = {
-            0.05, 0.05, 0.05, 0.05, 0.05,
-            0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05
+        G4double reflectivityGlass[numEntries] = {
+            0.05, 0.05, 0.05, 0.05, 0.05, 0.05,
+            0.05, 0.05, 0.05, 0.05, 0.05, 0.05
         };
 
-        // Crear tabla de propiedades del material para el vidrio
-        G4MaterialPropertiesTable* MPT = new G4MaterialPropertiesTable();
-        MPT->AddProperty("RINDEX", photonEnergy, refractiveIndex, numEntries);
-        MPT->AddProperty("ABSLENGTH", photonEnergy, absorptionLength, numEntries);
-        MPT->AddProperty("REFLECTIVITY", photonEnergy, reflectivity, numEntries);
+        // Crear tabla de propiedades ópticas para el vidrio de sílice
+        G4MaterialPropertiesTable* MPTGlass = new G4MaterialPropertiesTable();
+        MPTGlass->AddProperty("RINDEX", photonEnergy, refractiveIndexGlass, numEntries);
+        MPTGlass->AddProperty("ABSLENGTH", photonEnergy, absorptionLengthGlass, numEntries);
+        MPTGlass->AddProperty("REFLECTIVITY", photonEnergy, reflectivityGlass, numEntries);
 
-        // Asignar la tabla de propiedades al vidrio
-        target->SetMaterialPropertiesTable(MPT);
+        // Asignar propiedades ópticas al material del target (vidrio de sílice)
+        target->SetMaterialPropertiesTable(MPTGlass);
+
+        // Propiedades ópticas para el detector (E_PbWO4)
+        G4double refractiveIndexDetector[numEntries] = {
+            2.2, 2.25, 2.3, 2.35, 2.4, 2.45, 2.5, 2.55, 2.6, 2.65, 2.7, 2.75
+        };
+
+        G4double absorptionLengthDetector[numEntries] = {
+            1 * cm, 1 * cm, 1 * cm, 1 * cm, 1 * cm,
+            1 * cm, 1 * cm, 1 * cm, 1 * cm, 1 * cm, 1 * cm, 1 * cm
+        };
+
+        G4double reflectivityDetector[numEntries] = {
+            0.1, 0.1, 0.1, 0.1, 0.1,
+            0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1
+        };
+
+        // Crear tabla de propiedades del material para el detector
+        G4MaterialPropertiesTable* MPTDetector = new G4MaterialPropertiesTable();
+        MPTDetector->AddProperty("RINDEX", photonEnergy, refractiveIndexDetector, numEntries);
+        MPTDetector->AddProperty("ABSLENGTH", photonEnergy, absorptionLengthDetector, numEntries);
+        MPTDetector->AddProperty("REFLECTIVITY", photonEnergy, reflectivityDetector, numEntries);
+        E_PbWO4->SetMaterialPropertiesTable(MPTDetector);
     }
 
     G4VPhysicalVolume* DetectorConstruction::Construct()
@@ -118,7 +140,6 @@ namespace G4_PCM
         fDetectorLog = new G4LogicalVolume(solidDetector, E_PbWO4, "Detector");
 
         // Posicionar el detector en el mundo
-        // G4ThreeVector detectorPos = G4ThreeVector(0, 0, fTargetThickness / 2 + detectorSizeZ / 2); // Ajuste Z
         G4ThreeVector detectorPos = G4ThreeVector(0, 0, 20 * cm);
         new G4PVPlacement(nullptr, detectorPos, fDetectorLog, "Detector", fWorldLog, false, 0);
 
@@ -139,15 +160,7 @@ namespace G4_PCM
 
     void DetectorConstruction::SetTargetThickness(G4double thickness)
     {
-        if (thickness != fTargetThickness) {
-            fTargetThickness = thickness;
-            G4RunManager::GetRunManager()->ReinitializeGeometry();
-        }
-    }
-
-    void DetectorConstruction::SetMaterial(G4Material* material)
-    {
-        target = material;
-        G4RunManager::GetRunManager()->ReinitializeGeometry();
+        fTargetThickness = thickness;
+        G4RunManager::GetRunManager()->GeometryHasBeenModified();
     }
 }
