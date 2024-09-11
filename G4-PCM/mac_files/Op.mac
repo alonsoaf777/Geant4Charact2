@@ -21,5 +21,5 @@
 # Calcular la energía del espectro
 /gps/ene/calculate
 
-# Disparar 3000 partículas
-/run/beamOn 3000
+# Disparar n partículas
+/run/beamOn 10000000

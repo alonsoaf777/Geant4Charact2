@@ -21,12 +21,20 @@ namespace G4_PCM
 
     G4Material* DetectorConstruction::DefineRealisticMaterial()
     {
-        G4double density = 2.2 * g / cm3; // Densidad del vidrio de sílice
-        G4Material* realisticMaterial = new G4Material("SilicaGlass", density, 2);
+        //G4double density = 2.2 * g / cm3; // Densidad del vidrio de sílice
+        //G4Material* realisticMaterial = new G4Material("SilicaGlass", density, 2);
+
+        //G4NistManager* nist = G4NistManager::Instance();
+        //realisticMaterial->AddElement(nist->FindOrBuildElement("Si"), 1);
+        //realisticMaterial->AddElement(nist->FindOrBuildElement("O"), 2);
+
+        G4double density = 3.36 * g / cm3; // Densidad del óxido de vanadio (V2O5)
+        G4Material* realisticMaterial = new G4Material("VanadiumOxide", density, 2);
 
         G4NistManager* nist = G4NistManager::Instance();
-        realisticMaterial->AddElement(nist->FindOrBuildElement("Si"), 1);
-        realisticMaterial->AddElement(nist->FindOrBuildElement("O"), 2);
+        realisticMaterial->AddElement(nist->FindOrBuildElement("V"), 2); // Dos átomos de vanadio
+        realisticMaterial->AddElement(nist->FindOrBuildElement("O"), 5); // Cinco átomos de oxígeno
+
 
         return realisticMaterial;
     }
@@ -59,37 +67,28 @@ namespace G4_PCM
     {
         const G4int numEntries = 12;
         G4double photonEnergy[numEntries] = {
-            0.496 * eV, 0.7 * eV, 1.0 * eV, 1.55 * eV, 2.0 * eV, 2.5 * eV,
-            3.0 * eV, 3.5 * eV, 4.0 * eV, 5.0 * eV, 10.0 * eV, 12.4 * eV
+            1.77 * eV, 2.0 * eV, 2.5 * eV, 3.0 * eV,
+            3.5 * eV, 4.0 * eV, 4.5 * eV, 5.0 * eV,
+            5.5 * eV, 6.0 * eV, 7.0 * eV, 8.0 * eV // Energía de los fotones
         };
 
-        // Índice de refracción del vidrio de sílice
-        G4double refractiveIndexGlass[numEntries] = {
-            1.4, 1.45, 1.5, 1.55, 1.6, 1.65,
-            1.7, 1.75, 1.8, 1.85, 1.9, 1.95
+        // Índice de refracción para V2O5
+        G4double refractiveIndexV2O5[numEntries] = {
+            2.2, 2.25, 2.3, 2.35, 2.4, 2.45, 2.5, 2.55, 2.6, 2.65, 2.7, 2.75
         };
 
-        // Absorción del vidrio de sílice (UV e IR absorbidos, visible transmitido)
-        G4double absorptionLengthGlass[numEntries] = {
-            0.01 * cm, 0.01 * cm, // Infrarrojo absorbido (<1.55 eV)
-            100 * cm, 100 * cm, 100 * cm, // Visible transmitido (1.55 eV - 3.1 eV)
-            100 * cm, 100 * cm, // Visible transmitido
-            0.01 * cm, 0.01 * cm, 0.01 * cm, 0.01 * cm // Ultravioleta absorbido (>3.1 eV)
+        // Longitud de absorción para V2O5 (absorbe UV e IR)
+        G4double absorptionLengthV2O5[numEntries] = {
+            0.1 * mm, 0.2 * mm, 0.5 * mm, 1 * mm, 5 * mm,
+            10 * mm, 20 * mm, 30 * mm, 40 * mm, 50 * mm, 1 * cm, 1 * cm
         };
 
-        G4double reflectivityGlass[numEntries] = {
-            0.05, 0.05, 0.05, 0.05, 0.05, 0.05,
-            0.05, 0.05, 0.05, 0.05, 0.05, 0.05
-        };
+        G4MaterialPropertiesTable* MPTV2O5 = new G4MaterialPropertiesTable();
+        MPTV2O5->AddProperty("RINDEX", photonEnergy, refractiveIndexV2O5, numEntries);
+        MPTV2O5->AddProperty("ABSLENGTH", photonEnergy, absorptionLengthV2O5, numEntries);
 
-        // Crear tabla de propiedades ópticas para el vidrio de sílice
-        G4MaterialPropertiesTable* MPTGlass = new G4MaterialPropertiesTable();
-        MPTGlass->AddProperty("RINDEX", photonEnergy, refractiveIndexGlass, numEntries);
-        MPTGlass->AddProperty("ABSLENGTH", photonEnergy, absorptionLengthGlass, numEntries);
-        MPTGlass->AddProperty("REFLECTIVITY", photonEnergy, reflectivityGlass, numEntries);
+        target->SetMaterialPropertiesTable(MPTV2O5);
 
-        // Asignar propiedades ópticas al material del target (vidrio de sílice)
-        target->SetMaterialPropertiesTable(MPTGlass);
 
         // Propiedades ópticas para el detector (E_PbWO4)
         G4double refractiveIndexDetector[numEntries] = {
