@@ -67,27 +67,31 @@ namespace G4_PCM
     {
         const G4int numEntries = 12;
         G4double photonEnergy[numEntries] = {
-            1.77 * eV, 2.0 * eV, 2.5 * eV, 3.0 * eV,
-            3.5 * eV, 4.0 * eV, 4.5 * eV, 5.0 * eV,
-            5.5 * eV, 6.0 * eV, 7.0 * eV, 8.0 * eV // Energía de los fotones
+            0.496 * eV, 1.0 * eV, 2.0 * eV, 3.0 * eV,
+            4.0 * eV, 5.0 * eV, 6.0 * eV, 7.0 * eV,
+            8.0 * eV, 9.0 * eV, 10.0 * eV, 12.4 * eV // Energía de los fotones
         };
 
-        // Índice de refracción para V2O5
+        // Índice de refracción para V2O5 (basado en datos experimentales)
         G4double refractiveIndexV2O5[numEntries] = {
-            2.2, 2.25, 2.3, 2.35, 2.4, 2.45, 2.5, 2.55, 2.6, 2.65, 2.7, 2.75
+            2.45, 2.50, 2.55, 2.60, 2.65, 2.70, 2.75, 2.80,
+            2.85, 2.90, 2.95, 3.00 // Valores aproximados
         };
 
-        // Longitud de absorción para V2O5 (absorbe UV e IR)
+        // Longitud de absorción para V2O5 (absorbe principalmente UV e IR)
         G4double absorptionLengthV2O5[numEntries] = {
-            0.1 * mm, 0.2 * mm, 0.5 * mm, 1 * mm, 5 * mm,
-            10 * mm, 20 * mm, 30 * mm, 40 * mm, 50 * mm, 1 * cm, 1 * cm
+            0.01 * mm, 0.05 * mm, 0.1 * mm, 0.5 * mm,
+            1.0 * mm, 2.0 * mm, 5.0 * mm, 10.0 * mm,
+            20.0 * mm, 50.0 * mm, 100.0 * mm, 1.0 * cm
         };
 
+        // Asignar propiedades ópticas al V2O5
         G4MaterialPropertiesTable* MPTV2O5 = new G4MaterialPropertiesTable();
         MPTV2O5->AddProperty("RINDEX", photonEnergy, refractiveIndexV2O5, numEntries);
         MPTV2O5->AddProperty("ABSLENGTH", photonEnergy, absorptionLengthV2O5, numEntries);
 
         target->SetMaterialPropertiesTable(MPTV2O5);
+
 
 
         // Propiedades ópticas para el detector (E_PbWO4)
